@@ -9,6 +9,6 @@ make a list page of the newest book 2021
 
 ### Screenshot
 
-  ![](img/gambar-crud/Screenshot crud.png)
+  <img width="781" alt="image" src="https://user-images.githubusercontent.com/73144931/148532113-fb698714-a0c0-4066-a3da-b9bae58fcd6c.png">
 
 # Coming Soon there will be other interesting features.
