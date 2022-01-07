@@ -77,7 +77,7 @@ if (isset($_POST["submit"])) {
             <ul>
                <li>
                   <label for="judul"><span style="margin-left: -248px;">Judul<span></label>
-                  <input type="text" name="judul" id="judul" required oninvalid="this.setCustomValidity('Judul harus di isi!')" oninput="setCustomValidity()">
+                  <input type="text" name="judul" id="judul" required oninvalid="this.setCustomValidity('Judul wajib di isi!')" oninput="setCustomValidity()">
                </li>
                <li>
                   <label for="terbit"><span style="margin-left: -205px;">Tahun Terbit</span></label>
@@ -89,7 +89,7 @@ if (isset($_POST["submit"])) {
                </li>
                <li>
                   <label for="penulis"><span style="margin-left: -235px;">Penulis</span></label>
-                  <input type="text" name="penulis" id="penulis" required oninvalid="this.setCustomValidity('Penulis harus di isi')" oninput="setCustomValidity()">
+                  <input type="text" name="penulis" id="penulis" required oninvalid="this.setCustomValidity('Penulis wajib di isi')" oninput="setCustomValidity()">
                </li>
                <li>
                   <label for="harga"><span style="margin-left: -205px;">Harga Buku</span></label>
