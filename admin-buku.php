@@ -87,7 +87,7 @@ if(isset($_POST["search"])) {
    }
 
    .btn-ubah a {
-      color: black;
+      color: #000;
    }
 
    .btn-hapus {
