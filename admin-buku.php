@@ -115,7 +115,7 @@ if(isset($_POST["search"])) {
    <center>
       <form action="" method="post">
          <input class="searc" type="text" name="keyword" placeholder="kata kunci judul atau penulis..." autofocus autocomplete="off">
-         <button id="btn-cari" type="submit" name="search">mencari</button>
+         <button id="btn-cari" type="submit" name="search"><i class="bi bi-search"></i></button>
       </form>
    </center>
 
