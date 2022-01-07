@@ -99,7 +99,7 @@ if(isset($_POST["search"])) {
    }
 
    .btn-hapus a {
-      color: white;
+      color: #fff;
    }
 </style>
 </div>
