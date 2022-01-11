@@ -76,6 +76,11 @@ function upload() {
                echo('Gambar Gagal Di Unggah, Ukuran Gambar Minial 5 MB');
             </script>";
    }
+
+   // Generate untuk gambar baru
+   $namaFileBaru = uniqid();
+   $namaFileBaru = '.';
+   $namaFileBaru = $ekstensiGambar;
 }
 
 function hapus($id)
