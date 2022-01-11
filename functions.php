@@ -44,6 +44,13 @@ function tambah($data)
    return mysqli_affected_rows($db);
 }
 
+function upload() {
+   $namaFile   = $_FILES['gambar']['name'];
+   $ukuranFile = $_FILES['gambar']['size'];
+   $error      = $_FILES['gambar']['error'];
+   $tmpName    = $_FILES['gambar']['tmp_name'];
+}
+
 function hapus($id)
 {
    global $db;
