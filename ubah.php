@@ -81,7 +81,7 @@ if (isset($_POST["submit"])) {
    </div>
 
    <div class="form-ubah">
-      <form action="" method="post">
+      <form action="" method="post" enctype="multipart/form-data">
             <input type="hidden" name="id" value="<?= $book["id"]; ?>">
          <center>
             <ul>
