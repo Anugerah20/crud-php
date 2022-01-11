@@ -83,7 +83,7 @@ function upload() {
    $namaFileBaru = $ekstensiGambar;
 
    // Jika gambar sesuai dengan yang di atas maka akan di upload
-   move_uploaded_file($tmpName, 'img/gambar/' . $namaFileBaru);
+   move_uploaded_file($tmpName, 'img/' . $namaFileBaru);
 
    return $namaFileBaru;
 }
