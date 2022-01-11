@@ -55,7 +55,7 @@ if (isset($_POST["submit"])) {
    }
 
    input[type="file"] {
-      font-size: 17px;
+      font-size: 16px;
    }
 
    
