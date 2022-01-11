@@ -69,6 +69,13 @@ function upload() {
             </script>";
             return false;
    }
+
+   // Mengecek ukuran gambar yang diupload 
+   if($ukuranFile > 5000000) {
+      echo "<script>
+               echo('Gambar Gagal Di Unggah, Ukuran Gambar Minial 5 MB');
+            </script>";
+   }
 }
 
 function hapus($id)
