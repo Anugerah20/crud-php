@@ -49,6 +49,14 @@ function upload() {
    $ukuranFile = $_FILES['gambar']['size'];
    $error      = $_FILES['gambar']['error'];
    $tmpName    = $_FILES['gambar']['tmp_name'];
+
+   // Mengecek gambar diupload atau tidak
+   if($error === 4) {
+      echo "<script>
+               alert('Gambar Wajib Di Upload !');
+            </script>";
+            return false;
+   }
 }
 
 function hapus($id)
