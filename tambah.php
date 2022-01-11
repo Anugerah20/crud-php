@@ -8,14 +8,14 @@ if (isset($_POST["submit"])) {
       echo "
          <script>
             alert('Data Berhasil Ditambahkan');
-            document.location.href = 'admin_buku.php';
+            document.location.href = 'admin-buku.php';
          </script>
       ";
    } else {
       echo "
       <script>
          alert('Data Gagal Ditambahkan!');
-         document.location.href = 'admin_buku.php';
+         document.location.href = 'admin-buku.php';
       </script>
    ";
    }
