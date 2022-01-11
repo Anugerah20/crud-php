@@ -81,6 +81,11 @@ function upload() {
    $namaFileBaru = uniqid();
    $namaFileBaru = '.';
    $namaFileBaru = $ekstensiGambar;
+
+   // Jika gambar sesuai dengan yang di atas maka akan di upload
+   move_uploaded_file($tmpName, 'img/gambar/' . $namaFileBaru);
+
+   return $namaFileBaru;
 }
 
 function hapus($id)
