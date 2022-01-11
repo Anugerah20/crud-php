@@ -27,13 +27,11 @@ function tambah($data)
    $halaman  = htmlspecialchars($data["halaman"]);
    $penulis  = htmlspecialchars($data["penulis"]);
    $harga    = htmlspecialchars($data["harga"]);
-   $gambarLama = htmlspecialchars($data["gambarLama"]);
 
    // Upload Gambar
-   if($_FILES['gambar']['error'] === 4) {
-      $gambar = $gambarLama;
-   } else {
-      $gambar =upload();
+   $gambar = upload();
+   if(!$gambar) {
+      return false;
    }
 
    $query = "INSERT INTO  buku VALUES
@@ -58,12 +56,12 @@ function upload() {
                alert('Gambar Wajib Di Upload !');
             </script>";
             return false;
-   }
+   }  
 
    // Mengecek apakah yang di upload itu adalah gambar
    $ekstensiGambarValid    = ['jpg','jpeg','png','svg'];
-   $ekstensiGambar        = explode('.', $namaFile);
-   $ekstensiGambar        = strtolower(end($ekstensiGambar));
+   $ekstensiGambar         = explode('.', $namaFile);
+   $ekstensiGambar         = strtolower(end($ekstensiGambar));
 
    if(!in_array($ekstensiGambar, $ekstensiGambarValid)) {
       echo "<script>
@@ -103,13 +101,20 @@ function ubah($data)
 {
    global $db;
 
-   $id       = $data["id"];
-   $judul    = htmlspecialchars($data["judul"]);
-   $terbit   = htmlspecialchars($data["terbit"]);
-   $halaman  = htmlspecialchars($data["halaman"]);
-   $penulis  = htmlspecialchars($data["penulis"]);
-   $harga    = htmlspecialchars($data["harga"]);
-   $gambar   = htmlspecialchars($data["gambar"]);
+   $id         = $data["id"];
+   $judul      = htmlspecialchars($data["judul"]);
+   $terbit     = htmlspecialchars($data["terbit"]);
+   $halaman    = htmlspecialchars($data["halaman"]);
+   $penulis    = htmlspecialchars($data["penulis"]);
+   $harga      = htmlspecialchars($data["harga"]);
+   $gambarLama = htmlspecialchars($data["gambarLama"]);
+
+   // Memerikasa apakah user mengganti gambar atau tidak
+   if($_FILES['gambar']['error'] === 4) {
+      $gambar   = $gambarLama;
+   } else {
+      $gambar   = upload();
+   }
 
    $query    = "UPDATE buku SET 
                judul    = '$judul',   terbit    = '$terbit',
