@@ -72,7 +72,7 @@ if (isset($_POST["submit"])) {
    </div>
 
    <div class="form-tambah">
-      <form action="" method="post">
+      <form action="" method="post" enctype="multipart/form-data">
          <center>
             <ul>
                <li>
