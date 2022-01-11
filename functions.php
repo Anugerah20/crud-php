@@ -62,6 +62,13 @@ function upload() {
    $ekstensiGambarValid    = ['jpg','jpeg','png','svg'];
    $ekstensiGammbar        = explode('.', $namaFile);
    $ekstensiGammbar        = strtolower(end($ekstensiGambar));
+
+   if(!in_array($ekstensiGambar, $ekstensiGambarValid)) {
+      echo "<script>
+               alert('Maaf Yang Anda Upload Bukan Gambar !');
+            </script>";
+            return false;
+   }
 }
 
 function hapus($id)
