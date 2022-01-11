@@ -60,8 +60,8 @@ function upload() {
 
    // Mengecek apakah yang di upload itu adalah gambar
    $ekstensiGambarValid    = ['jpg','jpeg','png','svg'];
-   $ekstensiGammbar        = explode('.', $namaFile);
-   $ekstensiGammbar        = strtolower(end($ekstensiGambar));
+   $ekstensiGambar        = explode('.', $namaFile);
+   $ekstensiGambar        = strtolower(end($ekstensiGambar));
 
    if(!in_array($ekstensiGambar, $ekstensiGambarValid)) {
       echo "<script>
