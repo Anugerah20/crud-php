@@ -51,13 +51,19 @@ if (isset($_POST["submit"])) {
 
    input {
       width: 290px;
-      padding: 5px 10px;
+      padding: 10px 15px;
    }
+
+   input[type="file"] {
+      font-size: 17px;
+   }
+
+   
 
    .btn-tambah {
       margin-top: 1rem;
       margin-left: -190px;
-      padding: 8px 10px;
+      padding: 10px 15px;
       outline: none;
       border: 0;
       background: rgb(13, 110, 253);
@@ -97,7 +103,7 @@ if (isset($_POST["submit"])) {
                </li>
                <li>
                   <label for="gambar"><span style="margin-left: -235px;">Gambar</span></label>
-                  <input style="margin-left: -18px;" type="file" name="gambar" id="gambar">
+                  <input style="margin-left: -30px;" type="file" name="gambar" id="gambar">
                </li>
                <li>
                   <button class="btn-tambah" type="submit" name="submit">Tambah Data</button>
