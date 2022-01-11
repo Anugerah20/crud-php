@@ -27,7 +27,12 @@ function tambah($data)
    $halaman  = htmlspecialchars($data["halaman"]);
    $penulis  = htmlspecialchars($data["penulis"]);
    $harga    = htmlspecialchars($data["harga"]);
-   $gambar   = htmlspecialchars($data["gambar"]);
+
+   // Upload Gambar
+   $gambar =upload();
+   if(!$gambar) {
+      return false;
+   }
 
    $query = "INSERT INTO  buku VALUES
       ('', '$judul', '$terbit', '$halaman',
