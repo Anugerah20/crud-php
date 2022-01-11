@@ -57,6 +57,11 @@ function upload() {
             </script>";
             return false;
    }
+
+   // Mengecek apakah yang di upload itu adalah gambar
+   $ekstensiGambarValid    = ['jpg','jpeg','png','svg'];
+   $ekstensiGammbar        = explode('.', $namaFile);
+   $ekstensiGammbar        = strtolower(end($ekstensiGambar));
 }
 
 function hapus($id)
