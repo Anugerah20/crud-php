@@ -107,7 +107,10 @@ if (isset($_POST["submit"])) {
                </li>
                <li>
                   <label for="gambar"><span style="margin-left: -235px;">Gambar</span></label>
-                  <input style="margin-left: -18px;" type="file" name="gambar" id="gambar" value="<?= $book["gambar"]; ?>">
+                  <div style="margin-right: 185px; margin-top: 10px;">
+                     <img src="img/<?= $book["gambar"]; ?>" alt="" width="100px">
+                  </div>
+                  <input style="margin-left: -18px;" type="file" name="gambar" id="gambar">
                </li>
                <li>
                   <button class="btn-ubah" type="submit" name="submit">Ubah Data</button>
