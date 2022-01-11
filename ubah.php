@@ -15,14 +15,14 @@ if (isset($_POST["submit"])) {
       echo "
          <script>
             alert('Data Berhasil Diubah');
-            document.location.href = 'admin_buku.php';
+            document.location.href = 'admin-buku.php';
          </script>
       ";
    } else {
       echo "
       <script>
          alert('Data Gagal Diubah!');
-         document.location.href = 'admin_buku.php';
+         document.location.href = 'admin-buku.php';
       </script>
    ";
    }
