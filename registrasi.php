@@ -27,10 +27,11 @@
          margin-top: 3.5rem;
       }
 
-       input {
+       input[type=text],[type=password],[type=password2] {
          padding: 8px 65px;
          margin: 10px 0;
          display: inline-block;
+         box-sizing: border-box;
       }
    </style>
 </head>
