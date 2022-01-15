@@ -29,18 +29,20 @@
 
    <form action="" method="POST">
       <center>
-         <label for="username">Username :</label>
+         <div class="form-center">
+         <label for="username" style="margin-right: 93px;">Username</label>
          <input type="text" name="username" id="username">
 
-         <label for="password">Password :</label>
+         <label for="password" style="margin-right: 93px;">Password</label>
          <input type="password" name="password" id="password">
 
-         <label for="password2">Konfirmasi :</label>
+         <label for="password2" for="password" style="margin-right: 93px;">Konfirmasi</label>
          <input type="password2" name="password2" id="password2">
       </center>
       <div class="btn-register">
          <center>
             <button type="submit" name="registrasi">Registrasi!</button>
+            </div>
          </center>
       </div>
    </form>
