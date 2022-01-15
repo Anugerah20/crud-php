@@ -6,6 +6,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Registrasi</title>
    <style>
+      * {
+         font-family: 'arial', sans-serif;
+      }
       label {
          display: block;
       }
@@ -22,7 +25,7 @@
          <label for="password">Password :</label>
          <input type="password" name="password" id="password">
 
-         <label for="password2">Konfirmasi Password :</label>
+         <label for="password2">Konfirmasi :</label>
          <input type="password2" name="password2" id="password2">
       </div>
       <div class="btn-register">
