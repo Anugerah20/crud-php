@@ -32,6 +32,7 @@
          margin: 10px 0;
          display: inline-block;
          box-sizing: border-box;
+         
       }
    </style>
 </head>
