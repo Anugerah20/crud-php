@@ -30,8 +30,10 @@
        input[type=text],[type=password],[type=password2] {
          padding: 8px 65px;
          margin: 10px 0;
-         display: inline-block;
          box-sizing: border-box;
+         border-radius: 5px;
+         outline: none;
+         border: 1px solid rgb(216, 216, 216);
       }
 
       .btn-register button {
