@@ -5,6 +5,11 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Registrasi</title>
+   <style>
+      label {
+         display: block;
+      }
+   </style>
 </head>
 <body>
    <h1>Silahkan Registrasi</h1>
@@ -19,6 +24,9 @@
 
          <label for="password2">Konfirmasi Password :</label>
          <input type="password2" name="password2" id="password2">
+      </div>
+      <div class="btn-register">
+         <button type="submit" name="registrasi">Registrasi!</button>
       </div>
    </form>
    
