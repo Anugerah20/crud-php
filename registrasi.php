@@ -56,7 +56,6 @@
    </div>
 
    <form action="" method="POST">
-      <center>
          <div class="form-center">
             <div class="form-space">
          <label for="username" style="margin-right: 219px;">Username</label>
@@ -67,13 +66,10 @@
 
          <label for="password2" for="password" style="margin-right: 218px;">Konfirmasi</label>
          <input type="password2" name="password2" id="password2">
-      </center>
       <div class="btn-register">
-         <center>
             <button type="submit" name="registrasi">Registrasi</button>
             </div>
             </div>
-         </center>
       </div>
    </form>
 
