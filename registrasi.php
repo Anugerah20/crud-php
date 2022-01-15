@@ -22,6 +22,7 @@
       .title-register {
          margin-top: 8.5rem;
          text-align: center;
+         letter-spacing: 1px;
       }
 
       .form-center  {
