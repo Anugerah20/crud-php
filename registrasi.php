@@ -26,6 +26,7 @@
 
       .form-center  {
          margin-top: 3.5rem;
+         letter-spacing: 1px;
       }
 
        input {
