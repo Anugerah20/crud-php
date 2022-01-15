@@ -28,7 +28,8 @@
       .border-register {
          width: 500px;
          height: 520px;
-         border: 1px solid black;
+         border: 1px solid  rgb(216, 216, 216);
+         border-radius: 5px;
          position: relative;
          margin: 3rem auto;
       }
