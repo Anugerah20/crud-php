@@ -29,7 +29,8 @@
 
        input {
          padding: 8px 65px;
-         text-align: left;
+         margin: 10px 0;
+         display: inline-block;
       }
    </style>
 </head>
@@ -43,13 +44,13 @@
       <center>
          <div class="form-center">
             <div class="form-space">
-         <label for="username" style="margin-right: 93px;">Username</label>
+         <label for="username" style="margin-right: 219px;">Username</label>
          <input type="text" name="username" id="username">
 
-         <label for="password" style="margin-right: 93px;">Password</label>
+         <label for="password" style="margin-right: 220px;">Password</label>
          <input type="password" name="password" id="password">
 
-         <label for="password2" for="password" style="margin-right: 93px;">Konfirmasi</label>
+         <label for="password2" for="password" style="margin-right: 218px;">Konfirmasi</label>
          <input type="password2" name="password2" id="password2">
       </center>
       <div class="btn-register">
