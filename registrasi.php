@@ -9,6 +9,9 @@
    <style>
       * {
          font-family: 'arial', sans-serif;
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
       }
 
       label {
@@ -23,6 +26,11 @@
       .form-center  {
          margin-top: 3.5rem;
       }
+
+       input {
+         padding: 8px 65px;
+         text-align: left;
+      }
    </style>
 </head>
 
@@ -34,6 +42,7 @@
    <form action="" method="POST">
       <center>
          <div class="form-center">
+            <div class="form-space">
          <label for="username" style="margin-right: 93px;">Username</label>
          <input type="text" name="username" id="username">
 
@@ -46,6 +55,7 @@
       <div class="btn-register">
          <center>
             <button type="submit" name="registrasi">Registrasi!</button>
+            </div>
             </div>
          </center>
       </div>
