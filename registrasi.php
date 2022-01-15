@@ -20,9 +20,17 @@
       }
 
       .title-register {
-         margin-top: 8.5rem;
+         margin-top: 4.5rem;
          text-align: center;
          letter-spacing: 1px;
+      }
+
+      .border-register {
+         width: 500px;
+         height: 580px;
+         border: 1px solid black;
+         position: relative;
+         margin: 3rem auto;
       }
 
       .form-center {
@@ -53,19 +61,20 @@
       }
 
       .form-space {
+         position: absolute;
          width: 300px;
-         margin: 2rem auto;
+         margin: 2rem 6rem;
       }
    </style>
 </head>
 
 <body>
-   <div class="title-register">
+   
+   <form action="" method="POST">
       <div class="border-register">
-         <h1>Silahkan Registrasi</h1>
-      </div>
-
-      <form action="" method="POST">
+         <div class="title-register">
+               <h1>Silahkan Registrasi</h1>
+            </div>
          <div class="form-center">
             <div class="form-space">
                <label for="username" style="margin-right: 219px;">Username</label>
@@ -78,11 +87,11 @@
                <input type="password" name="password2" id="password2">
                <div class="btn-register">
                   <button type="submit" name="registrasi">Registrasi</button>
-               </div>
             </div>
          </div>
+         </div>
+      </div>
       </form>
-   </div>
 
 </body>
 
