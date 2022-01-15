@@ -15,6 +15,7 @@
 
       .title-register {
          margin-top: 8.5rem;
+         text-align: center;
       }
    </style>
 </head>
@@ -24,7 +25,7 @@
    </div>
 
    <form action="" method="POST">
-      <div class="label-input">
+     <center>
          <label for="username">Username :</label>
          <input type="text" name="username" id="username">
 
@@ -33,9 +34,11 @@
 
          <label for="password2">Konfirmasi :</label>
          <input type="password2" name="password2" id="password2">
-      </div>
+   </center>
       <div class="btn-register">
+         <center>
          <button type="submit" name="registrasi">Registrasi!</button>
+   </center>
       </div>
    </form>
    
