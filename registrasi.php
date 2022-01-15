@@ -12,10 +12,16 @@
       label {
          display: block;
       }
+
+      .title-register {
+         margin-top: 8.5rem;
+      }
    </style>
 </head>
 <body>
-   <h1>Silahkan Registrasi</h1>
+   <div class="title-register">
+      <h1>Silahkan Registrasi</h1>
+   </div>
 
    <form action="" method="POST">
       <div class="label-input">
