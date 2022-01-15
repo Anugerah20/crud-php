@@ -12,6 +12,7 @@
          margin: 0;
          padding: 0;
          box-sizing: border-box;
+         background: #fff;
       }
 
       label {
@@ -28,7 +29,8 @@
       }
 
        input {
-         padding: 8px 65px;
+         width: 300px;
+         height: 35px;
          margin: 10px 0;
          box-sizing: border-box;
          border-radius: 5px;
@@ -46,6 +48,10 @@
          font-size: 16px;
          letter-spacing: 1px;
          border-radius: 5px;
+      }
+      .form-space {
+         width: 300px;
+         margin: 2rem auto;
       }
    </style>
 </head>
@@ -65,7 +71,7 @@
          <input type="password" name="password" id="password">
 
          <label for="password2" for="password" style="margin-right: 218px;">Konfirmasi</label>
-         <input type="password2" name="password2" id="password2">
+         <input type="password" name="password2" id="password2">
       <div class="btn-register">
             <button type="submit" name="registrasi">Registrasi</button>
             </div>
