@@ -31,7 +31,7 @@
          border: 1px solid  rgb(216, 216, 216);
          border-radius: 5px;
          position: relative;
-         margin: 3rem auto;
+         margin: 6rem auto;
       }
 
       .form-center {
