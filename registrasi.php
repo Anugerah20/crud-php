@@ -27,14 +27,14 @@
 
       .border-register {
          width: 500px;
-         height: 580px;
+         height: 520px;
          border: 1px solid black;
          position: relative;
          margin: 3rem auto;
       }
 
       .form-center {
-         margin-top: 3.5rem;
+         margin-top: 2.2rem;
          letter-spacing: 1px;
       }
 
