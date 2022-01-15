@@ -32,7 +32,18 @@
          margin: 10px 0;
          display: inline-block;
          box-sizing: border-box;
-         
+      }
+
+      .btn-register button {
+         padding: 8px 110px;
+         outline: none;
+         cursor: pointer;
+         border: 0;
+         background: rgb(13, 110, 253);
+         color: #fff;
+         font-size: 16px;
+         letter-spacing: 1px;
+         border-radius: 5px;
       }
    </style>
 </head>
@@ -57,7 +68,7 @@
       </center>
       <div class="btn-register">
          <center>
-            <button type="submit" name="registrasi">Registrasi!</button>
+            <button type="submit" name="registrasi">Registrasi</button>
             </div>
             </div>
          </center>
