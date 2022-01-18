@@ -29,7 +29,7 @@
 
       .border-register {
          width: 500px;
-         height: 600px;
+         height: 545px;
          border: 1px solid  rgb(216, 216, 216);
          border-radius: 5px;
          position: relative;
