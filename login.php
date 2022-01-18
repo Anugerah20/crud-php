@@ -72,7 +72,7 @@
          text-align: center;
       }
 
-      .sign-up {
+      .sign-up p{
          font-size: 16px;
          font-family: 'arial', sans-serif;
          font-weight: 400;
