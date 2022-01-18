@@ -76,7 +76,7 @@
 
       .login p{
          font-size: 16px;
-         font-family: 'arial', sans-serif;
+         font-family: 'Open Sans', sans-serif;
          font-weight: 400;
       }
    </style>
