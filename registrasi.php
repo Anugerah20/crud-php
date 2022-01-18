@@ -66,6 +66,17 @@
          width: 300px;
          margin: 2rem 6rem;
       }
+
+      .login {
+         margin-top: 2rem;
+         text-align: center;
+      }
+
+      .login p{
+         font-size: 16px;
+         font-family: 'arial', sans-serif;
+         font-weight: 400;
+      }
    </style>
 </head>
 
