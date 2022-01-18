@@ -66,6 +66,11 @@
          width: 300px;
          margin: 2rem 6rem;
       }
+
+      .sign-up {
+         margin-top: 2rem;
+         text-align: center;
+      }
    </style>
 </head>
 
@@ -88,9 +93,8 @@
                   <button type="submit" name="login">Login</button>
             </div>
 
-            <div class="belum-terdaftar">
-               <p>Belum Registrasi Silahkan Registrasi Disini</p>
-               <a href="registrasi.php">Registrasi</a>
+            <div class="sign-up">
+               <p>don't have an account? <a href="registrasi.php">Sign Up</a></p>
             </div>
          </div>
          </div>
