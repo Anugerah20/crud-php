@@ -87,6 +87,11 @@
                <div class="btn-login">
                   <button type="submit" name="login">Login</button>
             </div>
+
+            <div class="belum-terdaftar">
+               <p>Belum Registrasi Silahkan Registrasi Disini</p>
+               <a href="registrasi.php">Registrasi</a>
+            </div>
          </div>
          </div>
       </div>
