@@ -27,7 +27,7 @@
 
       .border-register {
          width: 500px;
-         height: 520px;
+         height: 550px;
          border: 1px solid  rgb(216, 216, 216);
          border-radius: 5px;
          position: relative;
