@@ -89,6 +89,9 @@
                <div class="btn-register">
                   <button type="submit" name="registrasi">Registrasi</button>
             </div>
+            <div class="login">
+               <p>Sudah melakukan registrasi? <a href="login.php">Login</a></p>
+            </div>
          </div>
          </div>
       </div>
