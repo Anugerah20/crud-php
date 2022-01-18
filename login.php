@@ -50,7 +50,7 @@
       }
 
       .btn-login button {
-         padding: 8px 110px;
+         padding: 8px 127px;
          outline: none;
          cursor: pointer;
          border: 0;
