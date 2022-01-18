@@ -71,6 +71,12 @@
          margin-top: 2rem;
          text-align: center;
       }
+
+      .sign-up {
+         font-size: 16px;
+         font-family: 'arial', sans-serif;
+         font-weight: 400;
+      }
    </style>
 </head>
 
@@ -94,7 +100,7 @@
             </div>
 
             <div class="sign-up">
-               <p>don't have an account? <a href="registrasi.php">Sign Up</a></p>
+               <p>Tidak mempunyai akun? <a href="registrasi.php">Registrasi</a></p>
             </div>
          </div>
          </div>
