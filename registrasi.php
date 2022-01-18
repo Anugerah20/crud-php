@@ -6,9 +6,11 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Halaman Registrasi</title>
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
    <style>
       * {
-         font-family: 'arial', sans-serif;
+         font-family: 'Open Sans', sans-serif;
          margin: 0;
          padding: 0;
          box-sizing: border-box;
