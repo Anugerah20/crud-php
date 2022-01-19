@@ -1,7 +1,7 @@
-<?php 
+<?php
 require 'functions.php';
 
-if(isset($_POST['login'])) {
+if (isset($_POST['login'])) {
 
    $username = $_POST['username'];
    $password = $_POST['password'];
@@ -9,7 +9,7 @@ if(isset($_POST['login'])) {
    $result = mysqli_query($db, "SELECT * FROM register WHERE username = '$username'");
 
    // Memerikasa username
-   if(mysqli_num_rows($result) === 1) {
+   if (mysqli_num_rows($result) === 1) {
 
       // Memerikasa password
       $row = mysqli_fetch_assoc($result);
@@ -107,7 +107,7 @@ if(isset($_POST['login'])) {
 
       .menu-error p {
          height: 100px;
-         width: 200px;
+         width: 300px;
          line-height: 100px;
          margin: 2rem auto;
          background: red;
@@ -119,18 +119,19 @@ if(isset($_POST['login'])) {
 
 <body>
 
-      <?php if(isset($error)) :?>
-         <div class="menu-error">
-            <p>
-               Username / Password Anda Salah
-            </p>
-         </div>
-     <?php endif; ?>
-
    <form action="" method="POST">
       <div class="border-login">
          <div class="title-login">
             <h1>Silahkan Login</h1>
+
+            <?php if (isset($error)) : ?>
+               <div class="menu-error">
+                  <p>
+                     Username / Password Anda Salah
+                  </p>
+               </div>
+            <?php endif; ?>
+
          </div>
          <div class="form-center">
             <div class="form-space">
