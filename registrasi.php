@@ -1,6 +1,6 @@
 <?php 
 if(isset($_POST['registrasi'])) {
-   
+
 }
 ?>
 
@@ -106,7 +106,7 @@ if(isset($_POST['registrasi'])) {
                <label for="password2" for="password" style="margin-right: 218px;">Konfirmasi</label>
                <input type="password" name="password2" id="password2">
                <div class="btn-register">
-                  <button type="submit" name="registrasi">Registrasi</button>
+                  <button type="submit" name="registrasi">Sign Up</button>
                </div>
                <div class="login">
                   <p>Sudah melakukan registrasi? <a href="login.php">Login</a></p>
