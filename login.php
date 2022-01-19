@@ -102,7 +102,7 @@
             </div>
 
             <div class="sign-up">
-               <p>Tidak mempunyai akun? <a href="registrasi.php">Registrasi</a></p>
+               <p>Tidak mempunyai akun? <a href="registrasi.php">Register</a></p>
             </div>
          </div>
          </div>
