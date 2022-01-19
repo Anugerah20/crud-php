@@ -155,7 +155,6 @@ function registrasi($data) {
 
    // Enkripsi password
    $password = password_hash($password, PASSWORD_DEFAULT);
-   var_dump($password);
 
    // Tambahkan user baru ke database
 
