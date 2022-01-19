@@ -106,11 +106,9 @@ if (isset($_POST['login'])) {
       }
 
       .menu-error p {
-         height: 100px;
-         width: 300px;
-         line-height: 100px;
          margin: 2rem auto;
          background: red;
+         font-weight: bold;
          color: white;
          text-align: center;
       }
