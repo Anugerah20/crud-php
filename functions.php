@@ -153,7 +153,12 @@ function registrasi($data) {
             return false;
    }
 
-   return 1;
+   // Enkripsi password
+   $password = password_hash($password, PASSWORD_DEFAULT);
+   var_dump($password);
+
+   // Tambahkan user baru ke database
+
 } 
 ?>
 
