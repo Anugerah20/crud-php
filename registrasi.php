@@ -1,14 +1,14 @@
 <?php 
 require 'functions.php';
 
-if(isset($_POST['register'])) {
+if(isset($_POST["register"])) {
 
-   if(registrasi($_POST) > 0) {
+   if($registrasi($_POST) > 0) {
       echo "<script>
                alert('username berhasil ditambahkan');
             </script>";
    } else {
-      mysqli_error($conn);
+      mysqli_error($db);
    }
 }
 ?>
