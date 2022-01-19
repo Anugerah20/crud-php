@@ -157,7 +157,9 @@ function registrasi($data) {
    $password = password_hash($password, PASSWORD_DEFAULT);
 
    // Tambahkan user baru ke database
+   mysqli_query($db, "INSERT INTO register VALUES('', '$username', '$password')");
 
+   return mysqli_affected_rows($db);
 } 
 ?>
 
