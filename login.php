@@ -30,7 +30,7 @@
       .border-login {
          width: 500px;
          height: 520px;
-         border: 1px solid  rgb(216, 216, 216);
+         border: 1px solid rgb(216, 216, 216);
          border-radius: 5px;
          position: relative;
          margin: 6rem auto;
@@ -74,7 +74,7 @@
          text-align: center;
       }
 
-      .sign-up p{
+      .sign-up p {
          font-size: 16px;
          font-family: 'Open Sans', sans-serif;
          font-weight: 400;
@@ -83,12 +83,12 @@
 </head>
 
 <body>
-   
+
    <form action="" method="POST">
       <div class="border-login">
          <div class="title-login">
-               <h1>Silahkan Login</h1>
-            </div>
+            <h1>Silahkan Login</h1>
+         </div>
          <div class="form-center">
             <div class="form-space">
                <label for="username" style="margin-right: 219px;">Username</label>
@@ -99,15 +99,15 @@
 
                <div class="btn-login">
                   <button type="submit" name="login">Login</button>
-            </div>
+               </div>
 
-            <div class="sign-up">
-               <p>Tidak mempunyai akun? <a href="registrasi.php">Register</a></p>
+               <div class="sign-up">
+                  <p>Tidak mempunyai akun? <a href="registrasi.php">Register</a></p>
+               </div>
             </div>
-         </div>
          </div>
       </div>
-      </form>
+   </form>
 
 </body>
 
