@@ -18,6 +18,8 @@ if(isset($_POST['login'])) {
          exit;
       }
    }
+
+   $error = true;
 }
 ?>
 
@@ -102,10 +104,28 @@ if(isset($_POST['login'])) {
          font-family: 'Open Sans', sans-serif;
          font-weight: 400;
       }
+
+      .menu-error p {
+         height: 100px;
+         width: 200px;
+         line-height: 100px;
+         margin: 2rem auto;
+         background: red;
+         color: white;
+         text-align: center;
+      }
    </style>
 </head>
 
 <body>
+
+      <?php if(isset($error)) :?>
+         <div class="menu-error">
+            <p>
+               Username / Password Anda Salah
+            </p>
+         </div>
+     <?php endif; ?>
 
    <form action="" method="POST">
       <div class="border-login">
