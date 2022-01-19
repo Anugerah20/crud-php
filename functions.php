@@ -145,6 +145,17 @@ function registrasi($data) {
    $password   = mysqli_real_escape_string($db, $data["password"]);
    $password2  = mysqli_real_escape_string($db, $data["password2"]);
 
+   // Mengecek apakah username di database sudah ada atau belum ada
+   $result = mysqli_query($db, "SELECT username FROM register WHERE username = '$username'");
+
+   if(mysqli_fetch_assoc($result)) {
+      echo "<script>
+               alert('username yang kamu tulis sudah terdaftar');
+            </script>";
+         return false;
+   }
+
+
    // Cek Konfirmasi Password
    if($password !== $password2) {
       echo "<script>
