@@ -1,3 +1,26 @@
+<?php 
+require 'functions.php';
+
+if(isset($_POST['login'])) {
+
+   $username = $_POST['username'];
+   $password = $_POST['password'];
+
+   $result = mysqli_query($db, "SELECT * FROM register WHERE username = '$username'");
+
+   // Memerikasa username
+   if(mysqli_num_rows($result) === 1) {
+
+      // Memerikasa password
+      $row = mysqli_fetch_assoc($result);
+      if (password_verify($password, $row["password"])) {
+         header("Location: admin-buku.php");
+         exit;
+      }
+   }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
