@@ -148,10 +148,12 @@ function registrasi($data) {
    // Cek Konfirmasi Password
    if($password !== $password2) {
       echo "<script>
-               alert('konfirmasi atau password anda salah');
+               alert('konfirmasi atau password andasalah');
             </script>";
             return false;
    }
+
+   return 1;
 } 
 ?>
 

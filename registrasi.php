@@ -5,7 +5,7 @@ if(isset($_POST["register"])) {
 
    if(registrasi($_POST) > 0) {
       echo "<script>
-               alert('username berhasil ditambahkan');
+               alert('username dan password anda berhasil ditambahkan');
             </script>";
    } else {
       mysqli_error($db);
