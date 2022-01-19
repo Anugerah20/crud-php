@@ -137,6 +137,22 @@ function search($keyword) {
    return query($query);
 }
 
+// Membuat Function Registrasi
+function registrasi($data) {
+   global $db;
+
+   $username   = strtolower(stripslashes($data["username"]));
+   $password   = mysqli_real_escape_string($db, $data["password"]);
+   $password2  = mysqli_real_escape_string($db, $data["password2"]);
+
+   // Cek Konfirmasi Password
+   if($password !== $password2) {
+      echo "<script>
+               alert('konfirmasi atau password anda salah');
+            </script>";
+            return false;
+   }
+} 
 ?>
 
 <!DOCTYPE html>
