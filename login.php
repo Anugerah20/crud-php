@@ -76,7 +76,7 @@ if (isset($_POST['login'])) {
          border: 1px solid rgb(216, 216, 216);
       }
 
-      .btn-login button {
+      .btn-login > button {
          padding: 8px 127px;
          outline: none;
          cursor: pointer;
