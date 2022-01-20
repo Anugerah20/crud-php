@@ -99,13 +99,13 @@ if (isset($_POST['login'])) {
          text-align: center;
       }
 
-      .sign-up p {
+      .sign-up > p {
          font-size: 16px;
          font-family: 'Open Sans', sans-serif;
          font-weight: 400;
       }
 
-      .menu-error p {
+      .menu-error > p {
          margin: 1.2rem auto;
          padding: 5px 0 5px 0;
          background: red;
