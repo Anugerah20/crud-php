@@ -38,6 +38,11 @@ if(isset($_POST["search"])) {
       height: 140vh;
    }
 
+   .judul-admin > h1 {
+      text-align: center; 
+      margin-top: 1.8rem;
+   }
+
    .tambah-data {
       margin-top: 5rem;
       text-align: center;
