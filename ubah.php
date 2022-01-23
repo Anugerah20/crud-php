@@ -48,6 +48,7 @@ if (isset($_POST["submit"])) {
       padding: 0;
       box-sizing: border-box;
       font-family: 'Open Sans', sans-serif;
+      text-transform: capitalize;
    }
 
    .judul-ubah {
