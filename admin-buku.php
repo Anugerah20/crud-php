@@ -40,7 +40,7 @@ if(isset($_POST["search"])) {
 
    .judul-admin > h1 {
       text-align: center; 
-      margin-top: 1.8rem;
+      margin-top: 3rem;
    }
 
    .tambah-data {
