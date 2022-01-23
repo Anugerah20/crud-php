@@ -78,7 +78,6 @@ if (isset($_POST["submit"])) {
    }
 
    .btn-ubah {
-      /* display: inline; */
       margin-top: 1rem;
       padding: 8px 110px;
       outline: none;
