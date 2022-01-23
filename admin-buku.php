@@ -122,7 +122,9 @@ if(isset($_POST["search"])) {
 <body>
    <div class="container-admin">
 
-   <h1 style="text-align: center; margin-top: 1.8rem;">daftar buku terlaris 2021</h1>
+   <div class="judul-admin">
+      <h1>daftar buku terlaris 2021</h1>
+   </div>
 
    <div class="tambah-data">
       <a href="tambah.php" target="_blank">tambah data buku</a>
