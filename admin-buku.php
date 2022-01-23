@@ -76,7 +76,7 @@ if(isset($_POST["search"])) {
       border: 1px solid #EAEAEA;
    }
 
-   button a {
+   button > a {
       text-decoration: none;
    }
 
