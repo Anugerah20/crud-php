@@ -84,7 +84,8 @@ if(isset($_POST["search"])) {
    tr,
    td {
       padding: 15px;
-      border: 1px solid #EAEAEA;
+      /* border: 1px solid #EAEAEA; */
+      border: 1px solid rgb(204, 204, 204);
    }
 
    button > a {
