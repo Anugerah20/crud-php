@@ -122,7 +122,7 @@ if (isset($_POST["submit"])) {
                   <input type="number" name="harga" id="harga" value="<?= $book["harga"]; ?>">
                </li>
                <li>
-                  <label for="gambar"><span style="margin-left: -235px;">gambar</span></label>
+                  <label for="gambar"><span style="margin-left: -226px;">gambar</span></label>
                   <div style="margin-right: 185px; margin-top: 10px;">
                      <img src="img/<?= $book["gambar"]; ?>" alt="" width="100px">
                   </div>
