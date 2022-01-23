@@ -49,6 +49,7 @@ if (isset($_POST["submit"])) {
       box-sizing: border-box;
       font-family: 'Open Sans', sans-serif;
       text-transform: capitalize;
+      outline: none;
    }
 
    .container-ubah {
