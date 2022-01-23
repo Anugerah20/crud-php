@@ -67,7 +67,7 @@ if(isset($_POST['register'])) {
       }
 
       .btn-register > button {
-         padding: 8px 110px;
+         padding: 8px 115px;
          outline: none;
          cursor: pointer;
          border: 0;
