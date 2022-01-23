@@ -31,6 +31,7 @@ if(isset($_POST["search"])) {
       margin: 0;
       box-sizing: border-box;
       font-family: 'Open Sans', sans-serif;
+      text-transform: capitalize;
    }
 
    .container-admin {
