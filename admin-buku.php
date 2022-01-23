@@ -26,6 +26,12 @@ if(isset($_POST["search"])) {
    <title>Halaman Admin Buku</title>
 </head>
 <style>
+   * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+   }
    .tambah-data {
       margin-top: 5rem;
       text-align: center;
@@ -34,7 +40,6 @@ if(isset($_POST["search"])) {
 
    .tambah-data > a {
       text-decoration: none;
-      font-family: 'arial', sans-serif;
       font-size: 18px;
       padding: 8px 10px;
       background: rgb(13, 110, 253);
@@ -66,7 +71,6 @@ if(isset($_POST["search"])) {
       border-collapse: collapse;
       margin-top: 50px;
       text-align: center;
-      font-family: 'arial', sans-serif;
    }
 
    th,
@@ -107,6 +111,7 @@ if(isset($_POST["search"])) {
 </div>
 
 <body>
+   <div class="container-admin">
 
    <h1 style="text-align: center; font-family:arial; margin-top: 1.8rem;">Daftar Buku Terlaris 2021</h1>
 
@@ -156,6 +161,7 @@ if(isset($_POST["search"])) {
          <?php endforeach; ?>
       </table>
    </center>
+   </div>
 
 </body>
 
