@@ -55,6 +55,7 @@ if (isset($_POST["submit"])) {
       text-align: center;
       margin-top: 3rem;
       letter-spacing: 2px;
+      font-weight: bold;
    }
 
    .form-ubah {
