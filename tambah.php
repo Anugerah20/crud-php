@@ -59,14 +59,12 @@ if (isset($_POST["submit"])) {
 
    input {
       width: 290px;
-      padding: 10px 15px;
+      padding: 10px 12px;
    }
 
    input[type="file"] {
       font-size: 16px;
    }
-
-   
 
    .btn-tambah {
       margin-top: 1rem;
