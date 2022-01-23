@@ -94,7 +94,7 @@ if (isset($_POST["submit"])) {
                   <input type="text" name="judul" id="judul" required oninvalid="this.setCustomValidity('Judul wajib di isi!')" oninput="setCustomValidity()">
                </li>
                <li>
-                  <label for="terbit"><span style="margin-left: -198px;">tahun terbit</span></label>
+                  <label for="terbit"><span style="margin-left: -195px;">tahun terbit</span></label>
                   <input type="number" name="terbit" id="terbit">
                </li>
                <li>
