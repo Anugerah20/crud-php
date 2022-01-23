@@ -104,7 +104,7 @@ if (isset($_POST["submit"])) {
                   <input type="number" name="harga" id="harga">
                </li>
                <li>
-                  <label for="gambar"><span style="margin-left: -235px;">Gambar</span></label>
+                  <label for="gambar"><span style="margin-left: -235px;">gambar</span></label>
                   <input style="margin-left: -30px;" type="file" name="gambar" id="gambar">
                </li>
                <li>
