@@ -43,7 +43,7 @@ if (isset($_POST["submit"])) {
 </head>
 
 <style>
-   *{
+   * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -86,6 +86,8 @@ if (isset($_POST["submit"])) {
 </style>
 
 <body>
+   <div class="container-ubah">
+
    <div class="judul-ubah">
       <h1>ubah data buku</h1>
    </div>
@@ -129,6 +131,7 @@ if (isset($_POST["submit"])) {
          </center>
 
       </form>
+   </div>
    </div>
 
 </body>
