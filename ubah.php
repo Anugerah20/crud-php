@@ -83,7 +83,7 @@ if (isset($_POST["submit"])) {
 
 <body>
    <div class="judul-ubah">
-      <h1>Ubah Data Buku</h1>
+      <h1>ubah data buku</h1>
    </div>
 
    <div class="form-ubah">
