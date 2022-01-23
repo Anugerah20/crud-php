@@ -51,6 +51,10 @@ if (isset($_POST["submit"])) {
       text-transform: capitalize;
    }
 
+   .container-ubah {
+      height: 100vh;
+   }
+
    .judul-ubah > h1 {
       text-align: center;
       margin-top: 3rem;
