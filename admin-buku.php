@@ -102,7 +102,7 @@ if(isset($_POST["search"])) {
 
    .btn-ubah {
       padding: 5px 10px;
-      background: yellow;
+      background: rgb(255, 193, 7);
       border: 0;
       outline: none;
       border-radius: 4px;
