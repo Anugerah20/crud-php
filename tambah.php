@@ -81,6 +81,8 @@ if (isset($_POST["submit"])) {
 </style>
 
 <body>
+   <div class="container-tambah">
+   
    <div class="judul-tambah">
       <h1>tambah data buku</h1>
    </div>
@@ -118,8 +120,8 @@ if (isset($_POST["submit"])) {
                </li>
             </ul>
          </center>
-
       </form>
+   </div>
    </div>
 
 </body>
