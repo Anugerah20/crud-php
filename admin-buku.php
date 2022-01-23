@@ -88,7 +88,7 @@ if(isset($_POST["search"])) {
       border-radius: 4px;
    }
 
-   .btn-ubah a {
+   .btn-ubah > a {
       color: #000;
    }
 
