@@ -44,6 +44,10 @@ if (isset($_POST["submit"])) {
       font-family: 'Open Sans', sans-serif;
    }
 
+   .container-tambah {
+      height: 100vh;
+   }
+
    .judul-tambah {
       text-align: center;
       margin-top: 3rem;
