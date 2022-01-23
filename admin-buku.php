@@ -41,6 +41,8 @@ if(isset($_POST["search"])) {
    .judul-admin > h1 {
       text-align: center; 
       margin-top: 3rem;
+      letter-spacing: 2px;
+      word-spacing: 2px;
    }
 
    .tambah-data {
