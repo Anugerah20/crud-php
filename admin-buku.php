@@ -58,6 +58,8 @@ if(isset($_POST["search"])) {
       width: 40%;
       border-radius: 4px;
       margin-right: 10px;
+     outline: none;
+     border: 1px solid rgb(204, 204, 204);
    }
 
    #btn-cari {
