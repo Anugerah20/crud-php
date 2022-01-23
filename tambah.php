@@ -59,8 +59,9 @@ if (isset($_POST["submit"])) {
    }
 
    input {
+      margin-top: 6px;
       width: 290px;
-      padding: 10px 15px;
+      padding: 8px 15px;
    }
 
    input[type="file"] {
