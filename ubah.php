@@ -54,6 +54,7 @@ if (isset($_POST["submit"])) {
    .judul-ubah > h1 {
       text-align: center;
       margin-top: 3rem;
+      letter-spacing: 2px;
    }
 
    .form-ubah {
