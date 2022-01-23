@@ -68,7 +68,6 @@ if (isset($_POST["submit"])) {
       padding: 8px 10px;
       outline: none;
       border: 0;
-      /* background: rgb(255, 193, 7); */
       background:rgb(13, 110, 253);
       color: #fff;
       border-radius: 4px;
