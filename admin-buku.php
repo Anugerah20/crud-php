@@ -158,7 +158,7 @@ if(isset($_POST["search"])) {
                   <img src="img/<?= $row["gambar"]; ?>" alt=" book1" width="50">
                </td>
                <td>
-                  <button class="btn-ubah"> <a href="ubah.php?id=<?= $row["id"]; ?>">Ubah</a></button>
+                  <button class="btn-ubah"> <a href="ubah.php?id=<?= $row["id"]; ?>">Edit</a></button>
                   <button class="btn-hapus"><a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('Apakah anda yakin mau menghapus data ini?')">Hapus</a></button>
                </td>
             </tr>
