@@ -113,7 +113,7 @@ if (isset($_POST["submit"])) {
                   <input style="margin-left: -18px;" type="file" name="gambar" id="gambar">
                </li>
                <li>
-                  <button class="btn-ubah" type="submit" name="submit">Ubah Data</button>
+                  <button class="btn-ubah" type="submit" name="submit">Edit Data</button>
                </li>
             </ul>
          </center>
