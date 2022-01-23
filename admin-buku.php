@@ -149,13 +149,13 @@ if (isset($_POST["search"])) {
          <table border="0" cellpadding="0">
             <tr>
                <th>#</th>
-               <th>Judul</th>
-               <th>Tahun Terbit</th>
-               <th>Jumlah Halaman</th>
-               <th>Penulis</th>
-               <th>Harga Buku</th>
-               <th>Gambar</th>
-               <th>Aksi</th>
+               <th>judul</th>
+               <th>tahun terbit</th>
+               <th>jumlah halaman</th>
+               <th>penulis</th>
+               <th>harga buku</th>
+               <th>gambar</th>
+               <th>aksi</th>
             </tr>
 
             <?php $i = 1; ?>
@@ -172,8 +172,8 @@ if (isset($_POST["search"])) {
                      <img src="img/<?= $row["gambar"]; ?>" alt=" book1" width="50">
                   </td>
                   <td>
-                     <button class="btn-ubah"> <a href="ubah.php?id=<?= $row["id"]; ?>">Edit</a></button>
-                     <button class="btn-hapus"><a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('Apakah anda yakin mau menghapus data ini?')">Hapus</a></button>
+                     <button class="btn-ubah"> <a href="ubah.php?id=<?= $row["id"]; ?>">edit</a></button>
+                     <button class="btn-hapus"><a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('Apakah anda yakin mau menghapus data ini?')">hapus</a></button>
                   </td>
                </tr>
                <?php $i++; ?>
