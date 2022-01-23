@@ -89,7 +89,7 @@ if(isset($_POST['register'])) {
          text-align: center;
       }
 
-      .login p {
+      .login > p {
          font-size: 16px;
          font-family: 'Open Sans', sans-serif;
          font-weight: 400;
