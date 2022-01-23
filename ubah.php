@@ -49,7 +49,6 @@ if (isset($_POST["submit"])) {
 
    .judul-ubah {
       text-align: center;
-      font-family: 'arial', sans-serif;
       margin-top: 3rem;
    }
 
