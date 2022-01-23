@@ -81,6 +81,7 @@ if (isset($_POST["submit"])) {
       background: rgb(13, 110, 253);
       color: #fff;
       border-radius: 4px;
+      cursor: pointer;
    }
 </style>
 
