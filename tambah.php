@@ -98,7 +98,7 @@ if (isset($_POST["submit"])) {
                   <input type="number" name="terbit" id="terbit">
                </li>
                <li>
-                  <label for="halaman"><span style="margin-left: -170px;">jumlah halaman</span></label>
+                  <label for="halaman"><span style="margin-left: -160px;">jumlah halaman</span></label>
                   <input type="number" name="halaman" id="halaman">
                </li>
                <li>
