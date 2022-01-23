@@ -146,7 +146,7 @@ if (isset($_POST["search"])) {
       </center>
 
       <center>
-         <table border="0" cellpadding="0">
+         <table>
             <tr>
                <th>#</th>
                <th>judul</th>
