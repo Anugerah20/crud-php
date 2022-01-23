@@ -45,7 +45,6 @@ if (isset($_POST["submit"])) {
 
    .judul-tambah {
       text-align: center;
-      font-family: 'arial', sans-serif;
       margin-top: 3rem;
    }
 
