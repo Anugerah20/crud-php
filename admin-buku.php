@@ -34,7 +34,7 @@ if(isset($_POST["search"])) {
    }
 
    .container-admin {
-      height: 150vh;
+      height: 140vh;
    }
 
    .tambah-data {
@@ -95,7 +95,7 @@ if(isset($_POST["search"])) {
    .btn-ubah {
       padding: 5px 10px;
       background: yellow;
-      border: none;
+      border: 0;
       outline: none;
       border-radius: 4px;
    }
