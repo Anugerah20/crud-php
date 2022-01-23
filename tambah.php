@@ -106,7 +106,7 @@ if (isset($_POST["submit"])) {
                   <input type="text" name="penulis" id="penulis" required oninvalid="this.setCustomValidity('Penulis wajib di isi')" oninput="setCustomValidity()">
                </li>
                <li>
-                  <label for="harga"><span style="margin-left: -205px;">harga buku</span></label>
+                  <label for="harga"><span style="margin-left: -200px;">harga buku</span></label>
                   <input type="number" name="harga" id="harga">
                </li>
                <li>
