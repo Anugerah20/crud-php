@@ -56,7 +56,7 @@ if (isset($_POST["submit"])) {
       height: 110vh;
    }
 
-   .judul-ubah > h1 {
+   .judul-ubah>h1 {
       text-align: center;
       margin-top: 3rem;
       letter-spacing: 2px;
@@ -83,7 +83,7 @@ if (isset($_POST["submit"])) {
       padding: 8px 110px;
       outline: none;
       border: 0;
-      background:rgb(13, 110, 253);
+      background: rgb(13, 110, 253);
       color: #fff;
       border-radius: 4px;
       cursor: pointer;
@@ -93,50 +93,50 @@ if (isset($_POST["submit"])) {
 <body>
    <div class="container-ubah">
 
-   <div class="judul-ubah">
-      <h1>ubah data buku</h1>
-   </div>
+      <div class="judul-ubah">
+         <h1>ubah data buku</h1>
+      </div>
 
-   <div class="form-ubah">
-      <form action="" method="post" enctype="multipart/form-data">
+      <div class="form-ubah">
+         <form action="" method="post" enctype="multipart/form-data">
             <input type="hidden" name="id" value="<?= $book["id"]; ?>">
-         <center>
-            <ul>
-               <li>
-                  <label for="judul">  <span style="margin-left: -248px;">judul<span></label>
-                  <input type="text" name="judul" id="judul" required oninvalid="this.setCustomValidity('Judul harus di isi!')" oninput="setCustomValidity()" value="<?= $book["judul"]; ?>">
-               </li>
-               <li>
-                  <label for="terbit"><span style="margin-left: -196px;">tahun terbit</span></label>
-                  <input type="number" name="terbit" id="terbit" value="<?= $book["terbit"]; ?>">
-               </li>
-               <li>
-                  <label for="halaman"><span style="margin-left: -162px;">jumlah halaman</span></label>
-                  <input type="number" name="halaman" id="halaman" value="<?= $book["halaman"]; ?>">
-               </li>
-               <li>
-                  <label for="penulis"><span style="margin-left: -235px;">penulis</span></label>
-                  <input type="text" name="penulis" id="penulis" required oninvalid="this.setCustomValidity('Penulis harus di isi')" oninput="setCustomValidity()" value="<?= $book["penulis"]; ?>">
-               </li>
-               <li>
-                  <label for="harga"><span style="margin-left: -200px;">harga buku</span></label>
-                  <input type="number" name="harga" id="harga" value="<?= $book["harga"]; ?>">
-               </li>
-               <li>
-                  <label for="gambar"><span style="margin-left: -226px;">gambar</span></label>
-                  <div style="margin-right: 185px; margin-top: 10px;">
-                     <img src="img/<?= $book["gambar"]; ?>" alt="" width="100px">
-                  </div>
-                  <input style="margin-left: -18px;" type="file" name="gambar" id="gambar">
-               </li>
-               <li>
-                  <button class="btn-ubah" type="submit" name="submit">ubah data</button>
-               </li>
-            </ul>
-         </center>
+            <center>
+               <ul>
+                  <li>
+                     <label for="judul"> <span style="margin-left: -248px;">judul<span></label>
+                     <input type="text" name="judul" id="judul" required oninvalid="this.setCustomValidity('Judul harus di isi!')" oninput="setCustomValidity()" value="<?= $book["judul"]; ?>">
+                  </li>
+                  <li>
+                     <label for="terbit"><span style="margin-left: -196px;">tahun terbit</span></label>
+                     <input type="number" name="terbit" id="terbit" value="<?= $book["terbit"]; ?>">
+                  </li>
+                  <li>
+                     <label for="halaman"><span style="margin-left: -162px;">jumlah halaman</span></label>
+                     <input type="number" name="halaman" id="halaman" value="<?= $book["halaman"]; ?>">
+                  </li>
+                  <li>
+                     <label for="penulis"><span style="margin-left: -235px;">penulis</span></label>
+                     <input type="text" name="penulis" id="penulis" required oninvalid="this.setCustomValidity('Penulis harus di isi')" oninput="setCustomValidity()" value="<?= $book["penulis"]; ?>">
+                  </li>
+                  <li>
+                     <label for="harga"><span style="margin-left: -200px;">harga buku</span></label>
+                     <input type="number" name="harga" id="harga" value="<?= $book["harga"]; ?>">
+                  </li>
+                  <li>
+                     <label for="gambar"><span style="margin-left: -226px;">gambar</span></label>
+                     <div style="margin-right: 185px; margin-top: 10px;">
+                        <img src="img/<?= $book["gambar"]; ?>" alt="" width="100px">
+                     </div>
+                     <input style="margin-left: -18px;" type="file" name="gambar" id="gambar">
+                  </li>
+                  <li>
+                     <button class="btn-ubah" type="submit" name="submit">ubah data</button>
+                  </li>
+               </ul>
+            </center>
 
-      </form>
-   </div>
+         </form>
+      </div>
    </div>
 
 </body>
