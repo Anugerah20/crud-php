@@ -32,6 +32,11 @@ if(isset($_POST["search"])) {
       box-sizing: border-box;
       font-family: 'Open Sans', sans-serif;
    }
+
+   .container-admin {
+      height: 150vh;
+   }
+
    .tambah-data {
       margin-top: 5rem;
       text-align: center;
