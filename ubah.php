@@ -102,7 +102,7 @@ if (isset($_POST["submit"])) {
                   <input type="number" name="terbit" id="terbit" value="<?= $book["terbit"]; ?>">
                </li>
                <li>
-                  <label for="halaman"><span style="margin-left: -170px;">Jumlah Halaman</span></label>
+                  <label for="halaman"><span style="margin-left: -170px;">jumlah halaman</span></label>
                   <input type="number" name="halaman" id="halaman" value="<?= $book["halaman"]; ?>">
                </li>
                <li>
