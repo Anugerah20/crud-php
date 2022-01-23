@@ -55,7 +55,6 @@ if (isset($_POST["submit"])) {
    label {
       display: block;
       margin-top: 1rem;
-      font-family: 'arial', sans-serif;
    }
 
    input {
