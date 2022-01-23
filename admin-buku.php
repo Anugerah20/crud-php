@@ -19,6 +19,8 @@ if(isset($_POST["search"])) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Icon -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <head>
    <title>Halaman Admin Buku</title>
