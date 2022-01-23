@@ -32,7 +32,7 @@ if(isset($_POST["search"])) {
       margin-left: -49%;
    }
 
-   .tambah-data a {
+   .tambah-data > a {
       text-decoration: none;
       font-family: 'arial', sans-serif;
       font-size: 18px;
