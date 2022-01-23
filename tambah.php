@@ -70,8 +70,8 @@ if (isset($_POST["submit"])) {
 
    .btn-tambah {
       margin-top: 1rem;
-      margin-left: -190px;
-      padding: 10px 15px;
+      /* margin-left: -190px; */
+      padding: 10px 110px;
       outline: none;
       border: 0;
       background: rgb(13, 110, 253);
