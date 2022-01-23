@@ -41,6 +41,12 @@ if (isset($_POST["submit"])) {
 </head>
 
 <style>
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+   
    .judul-ubah {
       text-align: center;
       font-family: 'arial', sans-serif;
