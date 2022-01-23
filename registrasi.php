@@ -52,7 +52,7 @@ if(isset($_POST['register'])) {
       }
 
       .form-center {
-         margin-top: 2.2rem;
+         margin-top: 2rem;
          letter-spacing: 1px;
       }
 
