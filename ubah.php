@@ -94,7 +94,7 @@ if (isset($_POST["submit"])) {
          <center>
             <ul>
                <li>
-                  <label for="judul"><span style="margin-left: -248px;">Judul<span></label>
+                  <label for="judul"><span style="margin-left: -248px;">judul<span></label>
                   <input type="text" name="judul" id="judul" required oninvalid="this.setCustomValidity('Judul harus di isi!')" oninput="setCustomValidity()" value="<?= $book["judul"]; ?>">
                </li>
                <li>
