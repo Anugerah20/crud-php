@@ -100,7 +100,7 @@ if(isset($_POST["search"])) {
       border-radius: 4px;
    }
 
-   .btn-hapus a {
+   .btn-hapus > a {
       color: #fff;
    }
 </style>
