@@ -41,6 +41,7 @@ if (isset($_POST["submit"])) {
       box-sizing: border-box;
       text-transform: capitalize;
       outline: none;
+      font-family: 'Open Sans', sans-serif;
    }
 
    .judul-tambah {
@@ -59,7 +60,7 @@ if (isset($_POST["submit"])) {
 
    input {
       width: 290px;
-      padding: 10px 12px;
+      padding: 10px 15px;
    }
 
    input[type="file"] {
