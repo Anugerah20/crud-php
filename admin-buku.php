@@ -84,7 +84,8 @@ if(isset($_POST["search"])) {
 
    table {
       border-collapse: collapse;
-      margin-top: 50px;
+      /* margin-top: 50px; */
+      margin-top: 3.5rem;
       text-align: center;
    }
 
