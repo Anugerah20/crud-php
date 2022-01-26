@@ -17,6 +17,7 @@ if (isset($_POST['login'])) {
       if (password_verify($password, $row["password"])) {
 
          // mengatur session
+         $_SESSION["login"] = true;
 
          header("Location: admin-buku.php");
          exit;
