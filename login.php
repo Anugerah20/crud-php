@@ -147,10 +147,10 @@ if (isset($_POST['login'])) {
          <div class="form-center">
             <div class="form-space">
                <label for="username" style="margin-right: 219px;">Username</label>
-               <input type="text" name="username" id="username">
+               <input type="text" name="username" id="username" required>
 
                <label for="password" style="margin-right: 220px;">Password</label>
-               <input type="password" name="password" id="password">
+               <input type="password" name="password" id="password" required>
 
                <div class="btn-login">
                   <button type="submit" name="login">Login</button>
