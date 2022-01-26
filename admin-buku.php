@@ -137,6 +137,10 @@ if (isset($_POST["search"])) {
          <h1>daftar buku terlaris 2021</h1>
       </div>
 
+      <div class="logout">
+         <a href="logout.php">Log Out</a>
+      </div>
+
       <div class="tambah-data">
          <a href="tambah.php" target="_blank">tambah data buku</a>
       </div>
