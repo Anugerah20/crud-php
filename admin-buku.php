@@ -1,6 +1,4 @@
 <?php
-// Halaman Admin Baru
-
 // Menghubungkan koneksi db di file koneksi.php
 require 'functions.php';
 $buku = query("SELECT * FROM buku");
