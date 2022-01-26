@@ -9,7 +9,7 @@ make a list page of the newest book 2021
 
 ### Screenshot
 
-  ## Halaman Admin
+  ## Admin Page
   <img width="945" alt="image" src="https://user-images.githubusercontent.com/73144931/151106262-fdd92f22-aef1-4590-8603-26f1b9a50db5.png">
 
   ## Create Data
@@ -17,7 +17,8 @@ make a list page of the newest book 2021
 
 
  ## Change Data
-  <img width="349" alt="image" src="https://user-images.githubusercontent.com/73144931/148532370-da7ab1cf-ebe0-4ccf-ae59-e5451761bc31.png">
+ <img width="944" alt="image" src="https://user-images.githubusercontent.com/73144931/151106711-17fdfe36-6ad7-4d03-8ff9-593557ecc751.png">
+
 
 
 # Coming Soon there will be other interesting features.
