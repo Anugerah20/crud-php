@@ -107,13 +107,13 @@ if(isset($_POST['register'])) {
          <div class="form-center">
             <div class="form-space">
                <label for="username" style="margin-right: 219px;">Username</label>
-               <input type="text" name="username" id="username">
+               <input type="text" name="username" id="username" required>
 
                <label for="password" style="margin-right: 220px;">Password</label>
-               <input type="password" name="password" id="password">
+               <input type="password" name="password" id="password" required>
 
                <label for="password2" for="password" style="margin-right: 218px;">Konfirmasi</label>
-               <input type="password" name="password2" id="password2">
+               <input type="password" name="password2" id="password2" required>
                <div class="btn-register">
                   <button type="submit" name="register">Register</button>
                </div>
