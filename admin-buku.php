@@ -1,4 +1,10 @@
 <?php
+// Kondisi jika belum melakukan login
+if(isset($_SESSION["login"])) {
+   header("Location: login.php");
+   exit;
+}
+
 // Menghubungkan koneksi db di file koneksi.php
 require 'functions.php';
 $buku = query("SELECT * FROM buku");
