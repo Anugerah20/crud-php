@@ -53,6 +53,7 @@ if (isset($_POST["search"])) {
    .logout {
       text-align: center;
       margin-top: 1.5rem;
+      font-size: 16px;
    }
 
    .tambah-data {
