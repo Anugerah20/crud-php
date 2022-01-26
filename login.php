@@ -1,4 +1,5 @@
 <?php
+session_start();
 require 'functions.php';
 
 if (isset($_POST['login'])) {
@@ -14,6 +15,9 @@ if (isset($_POST['login'])) {
       // Memerikasa password
       $row = mysqli_fetch_assoc($result);
       if (password_verify($password, $row["password"])) {
+
+         // mengatur session
+
          header("Location: admin-buku.php");
          exit;
       }
