@@ -1,5 +1,12 @@
 <?php
 session_start();
+
+// Kondisi jika sudah login tidak pindah ke halaman login
+if(isset($_SESSION["login"])) {
+   header("Location: admin-buku.php");
+   exit;
+}
+
 require 'functions.php';
 
 if (isset($_POST['login'])) {
