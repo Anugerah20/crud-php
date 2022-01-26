@@ -50,6 +50,11 @@ if (isset($_POST["search"])) {
       word-spacing: 2px;
    }
 
+   .logout {
+      text-align: center;
+      margin-top: 1.5rem;
+   }
+
    .tambah-data {
       margin-top: 5rem;
       text-align: center;
