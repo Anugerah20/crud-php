@@ -1,12 +1,12 @@
 <?php
+require 'functions.php';
 session_start();
 
 // Kondisi jika belum melakukan login
-if(!isset($_SESSION["login"])) {
+if (!isset($_SESSION["login"])) {
    header("Location: login.php");
 }
 
-require 'functions.php';
 // Mengecek apakah tombol submit sudah ditekan atau belum
 if (isset($_POST["submit"])) {
 
