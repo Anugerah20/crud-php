@@ -1,9 +1,9 @@
-<?php 
+<?php
 require 'functions.php';
 
-if(isset($_POST['register'])) {
+if (isset($_POST['register'])) {
 
-   if(registrasi($_POST) > 0) {
+   if (registrasi($_POST) > 0) {
       echo "<script>
                alert('username dan password anda berhasil ditambahkan');
             </script>";
@@ -66,7 +66,7 @@ if(isset($_POST['register'])) {
          border: 1px solid rgb(216, 216, 216);
       }
 
-      .btn-register > button {
+      .btn-register>button {
          padding: 8px 115px;
          outline: none;
          cursor: pointer;
@@ -89,7 +89,7 @@ if(isset($_POST['register'])) {
          text-align: center;
       }
 
-      .login > p {
+      .login>p {
          font-size: 16px;
          font-family: 'Open Sans', sans-serif;
          font-weight: 400;
