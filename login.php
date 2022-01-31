@@ -2,7 +2,7 @@
 require 'functions.php';
 session_start();
 
-// Kondisi cookie jika sudah login
+// Kondisi cookie jika mau login
 if (isset($_COOKIE['remember'])) {
    if ($_COOKIE['login'] == 'true') {
       $_SESSION['login'] = true;
@@ -35,7 +35,7 @@ if (isset($_POST['login'])) {
          // Kondisi Remember me
          if (isset($_POST['remember'])) {
             // Membuat Cookie
-            setcookie('login', 'true', time() + 120);
+            setcookie('login', 'true', time()+60);
          }
 
          header("Location: admin-buku.php");
