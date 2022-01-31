@@ -2,12 +2,12 @@
 require 'functions.php';
 session_start();
 
-// Kondisi cookie jika mau login
-if (isset($_COOKIE['remember'])) {
-   if ($_COOKIE['login'] == 'true') {
-      $_SESSION['login'] = true;
-   }
-}
+// // Kondisi cookie jika mau login
+// if (isset($_COOKIE['remember'])) {
+//    if ($_COOKIE['login'] == 'true') {
+//       $_SESSION['login'] = true;
+//    }
+// }
 
 // Kondisi jika sudah login tidak pindah ke halaman login
 if (isset($_SESSION['login'])) {
@@ -35,7 +35,9 @@ if (isset($_POST['login'])) {
          // Kondisi Remember me
          if (isset($_POST['remember'])) {
             // Membuat Cookie
-            setcookie('login', 'true', time() + 60);
+
+            setcookie('id', $row['id'], time() + 60);
+            setcookie('key',hash('sha224',$row['username']));
          }
 
          header("Location: admin-buku.php");
