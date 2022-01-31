@@ -68,6 +68,7 @@ if (isset($_POST['login'])) {
 
       label {
          display: block;
+         /* cursor: pointer; */
       }
 
       .title-login {
