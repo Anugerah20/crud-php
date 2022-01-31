@@ -25,6 +25,12 @@ if (isset($_POST['login'])) {
          // mengatur session
          $_SESSION["login"] = true;
 
+         // Kondisi Remember me
+         if (isset($_POST['remember'])) {
+            // Membuat Cookie
+            setcookie('login', 'true', time() + 120);
+         }
+
          header("Location: admin-buku.php");
          exit;
       }
