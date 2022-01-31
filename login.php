@@ -1,13 +1,22 @@
 <?php
-require 'functions.php';
 session_start();
+require 'functions.php';
 
-// // Kondisi cookie jika mau login
-// if (isset($_COOKIE['remember'])) {
-//    if ($_COOKIE['login'] == 'true') {
-//       $_SESSION['login'] = true;
-//    }
-// }
+// Kondisi cookie jika mau login
+if (isset($_COOKIE['id']) && isset($_COOKIE['key'])) {
+   $id  = $_COOKIE['id'];
+   $key = $_COOKIE['key'];
+
+   // Mengambil username sesuai dengan id
+   $result = mysqli_query($db, "SELECT username FROM register WHERE id = $id");
+
+   $row = mysqli_fetch_assoc($result);
+
+   // Meriksa cookie dan username
+   if($key === hash('sha224', $row['username'])) {
+      $_SESSION['login'] = true;
+   } 
+}
 
 // Kondisi jika sudah login tidak pindah ke halaman login
 if (isset($_SESSION['login'])) {
@@ -37,7 +46,7 @@ if (isset($_POST['login'])) {
             // Membuat Cookie
 
             setcookie('id', $row['id'], time() + 60);
-            setcookie('key',hash('sha224',$row['username']));
+            setcookie('key',hash('sha224',$row['username']), time() + 60);
          }
 
          header("Location: admin-buku.php");
