@@ -6,7 +6,7 @@ if (!$db) {
    echo "<h2>Status saat ini : <b>Koneksi Gagal!</b></h2>";
 }
 
-// Mengambil data dari table Mahasiswa
+// Mengambil data dari table buku
 function query($query)
 {
    global $db;
@@ -30,7 +30,7 @@ function tambah($data)
 
    // Upload Gambar
    $gambar = upload();
-   if(!$gambar) {
+   if (!$gambar) {
       return false;
    }
 
@@ -44,34 +44,35 @@ function tambah($data)
    return mysqli_affected_rows($db);
 }
 
-function upload() {
+function upload()
+{
    $namaFile   = $_FILES['gambar']['name'];
    $ukuranFile = $_FILES['gambar']['size'];
    $error      = $_FILES['gambar']['error'];
    $tmpName    = $_FILES['gambar']['tmp_name'];
 
    // Mengecek gambar diupload atau tidak
-   if($error === 4) {
+   if ($error === 4) {
       echo "<script>
                alert('Gambar Wajib Di Upload !');
             </script>";
-            return false;
-   }  
+      return false;
+   }
 
    // Mengecek apakah yang di upload itu adalah gambar
-   $ekstensiGambarValid    = ['jpg','jpeg','png','svg'];
+   $ekstensiGambarValid    = ['jpg', 'jpeg', 'png', 'svg'];
    $ekstensiGambar         = explode('.', $namaFile);
    $ekstensiGambar         = strtolower(end($ekstensiGambar));
 
-   if(!in_array($ekstensiGambar, $ekstensiGambarValid)) {
+   if (!in_array($ekstensiGambar, $ekstensiGambarValid)) {
       echo "<script>
                alert('Maaf Yang Anda Upload Bukan Gambar !');
             </script>";
-            return false;
+      return false;
    }
 
    // Mengecek ukuran gambar yang diupload 
-   if($ukuranFile > 5000000) {
+   if ($ukuranFile > 5000000) {
       echo "<script>
                echo('Gambar Gagal Di Unggah, Ukuran Gambar Minial 5 MB');
             </script>";
@@ -110,7 +111,7 @@ function ubah($data)
    $gambarLama = htmlspecialchars($data["gambarLama"]);
 
    // Memerikasa apakah user mengganti gambar atau tidak
-   if($_FILES['gambar']['error'] === 4) {
+   if ($_FILES['gambar']['error'] === 4) {
       $gambar   = $gambarLama;
    } else {
       $gambar   = upload();
@@ -129,16 +130,18 @@ function ubah($data)
 
 
 // Membuat function cari data
-function search($keyword) {
+function search($keyword)
+{
    $query = "SELECT * FROM buku 
    WHERE judul LIKE '%$keyword%' OR
-         penulis LIKE '%$keyword%'"; 
+         penulis LIKE '%$keyword%'";
 
    return query($query);
 }
 
 // Membuat Function Registrasi
-function registrasi($data) {
+function registrasi($data)
+{
    global $db;
 
    $username   = strtolower(stripslashes($data["username"]));
@@ -148,20 +151,20 @@ function registrasi($data) {
    // Mengecek apakah username di database sudah ada atau belum ada
    $result = mysqli_query($db, "SELECT username FROM register WHERE username = '$username'");
 
-   if(mysqli_fetch_assoc($result)) {
+   if (mysqli_fetch_assoc($result)) {
       echo "<script>
                alert('username yang kamu tulis sudah terdaftar');
             </script>";
-         return false;
+      return false;
    }
 
 
    // Cek Konfirmasi Password
-   if($password !== $password2) {
+   if ($password !== $password2) {
       echo "<script>
                alert('password atau konfirmasi anda salah !');
             </script>";
-            return false;
+      return false;
    }
 
    // Enkripsi password
@@ -171,7 +174,7 @@ function registrasi($data) {
    mysqli_query($db, "INSERT INTO register VALUES('', '$username', '$password')");
 
    return mysqli_affected_rows($db);
-} 
+}
 ?>
 
 <!DOCTYPE html>
