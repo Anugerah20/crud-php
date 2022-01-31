@@ -44,7 +44,6 @@ if (isset($_POST['login'])) {
          // Kondisi Remember me
          if (isset($_POST['remember'])) {
             // Membuat Cookie
-
             setcookie('id', $row['id'], time() + 60);
             setcookie('key',hash('sha224',$row['username']), time() + 60);
          }
