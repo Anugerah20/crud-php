@@ -98,7 +98,7 @@ if (isset($_POST['login'])) {
          position: absolute;
          bottom: 100px;
          top: 152px;
-         right: 195px;
+         right: 150px;
       }
 
       .btn-login>button {
@@ -168,7 +168,7 @@ if (isset($_POST['login'])) {
 
                <input type="checkbox" name="remember" id="remember">
                <div id="box-check">
-                  <label for="remember">ingat saya</label>
+                  <label for="remember">Remember me</label>
                </div>
 
                <div class="btn-login">
