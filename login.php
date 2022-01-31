@@ -35,7 +35,7 @@ if (isset($_POST['login'])) {
          // Kondisi Remember me
          if (isset($_POST['remember'])) {
             // Membuat Cookie
-            setcookie('login', 'true', time()+60);
+            setcookie('login', 'true', time() + 60);
          }
 
          header("Location: admin-buku.php");
