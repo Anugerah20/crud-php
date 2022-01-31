@@ -151,6 +151,9 @@ if (isset($_POST['login'])) {
                <label for="password" style="margin-right: 220px;">Password</label>
                <input type="password" name="password" id="password" required>
 
+               <input type="checkbox" name="remember" id="remember">
+               <label for="remember">ingat saya</label>
+
                <div class="btn-login">
                   <button type="submit" name="login">Login</button>
                </div>
