@@ -58,7 +58,7 @@ if (isset($_POST['login'])) {
       }
 
       .title-login {
-         margin-top: 4.5rem;
+         margin-top: 3.5rem;
          text-align: center;
          letter-spacing: 1px;
       }
@@ -69,15 +69,17 @@ if (isset($_POST['login'])) {
          border: 1px solid rgb(216, 216, 216);
          border-radius: 5px;
          position: relative;
-         margin: 6rem auto;
+         margin: 4.5rem auto;
       }
 
       .form-center {
-         margin-top: 2.2rem;
+         margin-top: 2rem;
          letter-spacing: 1px;
       }
 
-      input {
+      input[type="text"],
+      input[type="password"],
+      input[type="submit"] {
          width: 300px;
          height: 35px;
          margin: 10px 0;
@@ -85,6 +87,18 @@ if (isset($_POST['login'])) {
          border-radius: 5px;
          outline: none;
          border: 1px solid rgb(216, 216, 216);
+      }
+
+      input[type="checkbox"] {
+         position: relative;
+         cursor: pointer;
+      }
+
+      #box-check {
+         position: absolute;
+         bottom: 100px;
+         top: 152px;
+         right: 195px;
       }
 
       .btn-login>button {
@@ -97,6 +111,7 @@ if (isset($_POST['login'])) {
          font-size: 16px;
          letter-spacing: 1px;
          border-radius: 5px;
+         margin-top: 1rem;
       }
 
       .form-space {
@@ -106,7 +121,7 @@ if (isset($_POST['login'])) {
       }
 
       .sign-up {
-         margin-top: 2rem;
+         margin-top: 1.5rem;
          text-align: center;
       }
 
@@ -152,7 +167,9 @@ if (isset($_POST['login'])) {
                <input type="password" name="password" id="password" required>
 
                <input type="checkbox" name="remember" id="remember">
-               <label for="remember">ingat saya</label>
+               <div id="box-check">
+                  <label for="remember">ingat saya</label>
+               </div>
 
                <div class="btn-login">
                   <button type="submit" name="login">Login</button>
