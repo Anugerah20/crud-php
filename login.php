@@ -2,8 +2,15 @@
 require 'functions.php';
 session_start();
 
+// Kondisi cookie jika sudah login
+if (isset($_COOKIE['remember'])) {
+   if ($_COOKIE['login'] == 'true') {
+      $_SESSION['login'] = true;
+   }
+}
+
 // Kondisi jika sudah login tidak pindah ke halaman login
-if (isset($_SESSION["login"])) {
+if (isset($_SESSION['login'])) {
    header("Location: admin-buku.php");
    exit;
 }
@@ -20,7 +27,7 @@ if (isset($_POST['login'])) {
 
       // Memerikasa password
       $row = mysqli_fetch_assoc($result);
-      if (password_verify($password, $row["password"])) {
+      if (password_verify($password, $row['password'])) {
 
          // mengatur session
          $_SESSION["login"] = true;
