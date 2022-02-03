@@ -62,7 +62,7 @@ if (isset($_POST["search"])) {
       <center>
          <table>
             <tr>
-               <th>#</th>
+               <th>nomor</th>
                <th>judul</th>
                <th>tahun terbit</th>
                <th>jumlah halaman</th>
