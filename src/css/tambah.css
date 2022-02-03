@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-transform: capitalize;
+   outline: none;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.container-tambah {
+   height: 100vh;
+}
+
+.judul-tambah {
+   text-align: center;
+   margin-top: 3rem;
+}
+
+.form-tambah {
+   margin-top: 3rem;
+}
+
+label {
+   display: block;
+   margin-top: 1rem;
+}
+
+input {
+   margin-top: 6px;
+   width: 290px;
+   padding: 8px 15px;
+}
+
+input[type="file"] {
+   font-size: 16px;
+}
+
+.btn-tambah {
+   margin-top: 1rem;
+   padding: 10px 110px;
+   outline: none;
+   border: 0;
+   background: rgb(13, 110, 253);
+   color: #fff;
+   border-radius: 4px;
+   cursor: pointer;
+}
