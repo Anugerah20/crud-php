@@ -13,9 +13,9 @@ if (isset($_COOKIE['id']) && isset($_COOKIE['key'])) {
    $row = mysqli_fetch_assoc($result);
 
    // Meriksa cookie dan username
-   if($key === hash('sha224', $row['username'])) {
+   if ($key === hash('sha224', $row['username'])) {
       $_SESSION['login'] = true;
-   } 
+   }
 }
 
 // Kondisi jika sudah login tidak pindah ke halaman login
@@ -45,7 +45,7 @@ if (isset($_POST['login'])) {
          if (isset($_POST['remember'])) {
             // Membuat Cookie
             setcookie('id', $row['id'], time() + 60);
-            setcookie('key',hash('sha224',$row['username']), time() + 60);
+            setcookie('key', hash('sha224', $row['username']), time() + 60);
          }
 
          header("Location: admin-buku.php");
@@ -67,8 +67,8 @@ if (isset($_POST['login'])) {
    <title>Halaman Login</title>
    <!-- Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<!-- Style CSS -->
-<link rel="stylesheet" href="src/css/login.css">
+   <!-- Style CSS -->
+   <link rel="stylesheet" href="src/css/login.css">
 </head>
 
 <body>
