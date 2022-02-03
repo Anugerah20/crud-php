@@ -38,10 +38,15 @@
    border-radius: 4px;
 }
 
+.search-responsive {
+   display: flex;
+   justify-content: center;
+   justify-content: center;
+}
+
 .searc {
    margin-top: 3rem;
    padding: 10px 10px;
-   width: 40%;
    border-radius: 4px;
    margin-right: 10px;
    outline: none;
@@ -100,3 +105,9 @@ button>a {
 .btn-hapus>a {
    color: #fff;
 }
+
+/* Responsive Mobile Website */
+
+/* @media only screen and(max-width: 576px) {
+   
+} */
