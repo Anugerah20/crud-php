@@ -54,7 +54,7 @@ if (isset($_POST["search"])) {
 
       <div class="search-responsive">
          <form action="" method="post">
-            <input class="searc" type="text" name="keyword" placeholder="kata kunci judul atau penulis..." autofocus autocomplete="off">
+            <input class="searc" type="text" name="keyword" size="80" placeholder="kata kunci judul atau penulis..." autofocus autocomplete="off">
             <button id="btn-cari" type="submit" name="search"><i class="bi bi-search"></i></button>
          </form>
       </div>
