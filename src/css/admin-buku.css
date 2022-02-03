@@ -121,6 +121,22 @@ button>a {
 
 /* Responsive Mobile Website */
 
-/* @media only screen and(max-width: 576px) {
-   
-} */
+@media screen and(max-width: 576px) {
+   .container-admin {
+      width: 100%;
+      display: flex;
+   }
+
+   table {
+      width: 70%;
+   }
+
+   tr, th {
+      display: flex;
+      margin-left: 1rem;
+      flex-direction: column;
+   }
+   .tambah-data a {
+      display: none;
+   }
+}
