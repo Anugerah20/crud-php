@@ -52,14 +52,14 @@ if (isset($_POST["search"])) {
          <a href="tambah.php" target="_blank">tambah data buku</a>
       </div>
 
-      <center>
+      <div class="search-responsive">
          <form action="" method="post">
             <input class="searc" type="text" name="keyword" placeholder="kata kunci judul atau penulis..." autofocus autocomplete="off">
             <button id="btn-cari" type="submit" name="search"><i class="bi bi-search"></i></button>
          </form>
-      </center>
+      </div>
 
-      <center>
+      <div class="table-responsive">
          <table>
             <tr>
                <th>nomor</th>
@@ -93,7 +93,7 @@ if (isset($_POST["search"])) {
                <?php $i++; ?>
             <?php endforeach; ?>
          </table>
-      </center>
+      </div class="table-responsive">
    </div>
 
 </body>
