@@ -23,78 +23,8 @@ if (isset($_POST['register'])) {
    <title>Halaman Registrasi</title>
    <!-- Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-   <style>
-      * {
-         font-family: 'Open Sans', sans-serif;
-         margin: 0;
-         padding: 0;
-         box-sizing: border-box;
-         background: #fff;
-      }
-
-      label {
-         display: block;
-      }
-
-      .title-register {
-         margin-top: 4.5rem;
-         text-align: center;
-         letter-spacing: 1px;
-      }
-
-      .border-register {
-         width: 500px;
-         height: 545px;
-         border: 1px solid rgb(216, 216, 216);
-         border-radius: 5px;
-         position: relative;
-         margin: 6rem auto;
-      }
-
-      .form-center {
-         margin-top: 2rem;
-         letter-spacing: 1px;
-      }
-
-      input {
-         width: 300px;
-         height: 35px;
-         margin: 10px 0;
-         box-sizing: border-box;
-         border-radius: 5px;
-         outline: none;
-         border: 1px solid rgb(216, 216, 216);
-      }
-
-      .btn-register>button {
-         padding: 8px 115px;
-         outline: none;
-         cursor: pointer;
-         border: 0;
-         background: rgb(13, 110, 253);
-         color: #fff;
-         font-size: 16px;
-         letter-spacing: 1px;
-         border-radius: 5px;
-      }
-
-      .form-space {
-         position: absolute;
-         width: 300px;
-         margin: 2rem 6rem;
-      }
-
-      .login {
-         margin-top: 2rem;
-         text-align: center;
-      }
-
-      .login>p {
-         font-size: 16px;
-         font-family: 'Open Sans', sans-serif;
-         font-weight: 400;
-      }
-   </style>
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="src/css/register.css" />
 </head>
 
 <body>
