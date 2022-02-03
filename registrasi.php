@@ -23,8 +23,8 @@ if (isset($_POST['register'])) {
    <title>Halaman Registrasi</title>
    <!-- Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <!-- Style CSS -->
-  <link rel="stylesheet" href="src/css/register.css" />
+   <!-- Style CSS -->
+   <link rel="stylesheet" href="src/css/register.css" />
 </head>
 
 <body>
