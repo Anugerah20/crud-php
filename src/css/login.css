@@ -1,0 +1,95 @@
+* {
+   font-family: 'Open Sans', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background: #fff;
+}
+
+label {
+   display: block;
+   /* cursor: pointer; */
+}
+
+.title-login {
+   margin-top: 3.5rem;
+   text-align: center;
+   letter-spacing: 1px;
+}
+
+.border-login {
+   width: 500px;
+   height: 520px;
+   border: 1px solid rgb(216, 216, 216);
+   border-radius: 5px;
+   position: relative;
+   margin: 4.5rem auto;
+}
+
+.form-center {
+   margin-top: 2rem;
+   letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+   width: 300px;
+   height: 35px;
+   margin: 10px 0;
+   box-sizing: border-box;
+   border-radius: 5px;
+   outline: none;
+   border: 1px solid rgb(216, 216, 216);
+}
+
+input[type="checkbox"] {
+   position: relative;
+   cursor: pointer;
+}
+
+#box-check {
+   position: absolute;
+   bottom: 100px;
+   top: 152px;
+   right: 150px;
+}
+
+.btn-login>button {
+   padding: 8px 127px;
+   outline: none;
+   cursor: pointer;
+   border: 0;
+   background: rgb(13, 110, 253);
+   color: #fff;
+   font-size: 16px;
+   letter-spacing: 1px;
+   border-radius: 5px;
+   margin-top: 1rem;
+}
+
+.form-space {
+   position: absolute;
+   width: 300px;
+   margin: 2rem 6rem;
+}
+
+.sign-up {
+   margin-top: 1.5rem;
+   text-align: center;
+}
+
+.sign-up>p {
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+
+.menu-error>p {
+   margin: 1.2rem auto;
+   padding: 5px 0 5px 0;
+   background: red;
+   font-weight: bold;
+   color: white;
+   text-align: center;
+}
