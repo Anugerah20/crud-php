@@ -1,0 +1,102 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+   text-transform: capitalize;
+}
+
+.container-admin {
+   height: 140vh;
+}
+
+.judul-admin>h1 {
+   text-align: center;
+   margin-top: 3rem;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+}
+
+.logout {
+   text-align: center;
+   margin-top: 1.5rem;
+   font-size: 16px;
+}
+
+.tambah-data {
+   margin-top: 5rem;
+   text-align: center;
+   margin-left: -49%;
+}
+
+.tambah-data>a {
+   text-decoration: none;
+   font-size: 18px;
+   padding: 8px 10px;
+   background: rgb(13, 110, 253);
+   color: #fff;
+   border-radius: 4px;
+}
+
+.searc {
+   margin-top: 3rem;
+   padding: 10px 10px;
+   width: 40%;
+   border-radius: 4px;
+   margin-right: 10px;
+   outline: none;
+   border: 1px solid rgb(204, 204, 204);
+}
+
+#btn-cari {
+   border: 0;
+   outline: none;
+   padding: 8px 12px;
+   background: rgb(25, 135, 84);
+   color: #fff;
+   font-size: 18px;
+   border-radius: 4px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+table {
+   border-collapse: collapse;
+   margin-top: 3.5rem;
+   text-align: center;
+}
+
+th,
+tr,
+td {
+   padding: 15px;
+   border: 1px solid rgb(204, 204, 204);
+}
+
+button>a {
+   text-decoration: none;
+}
+
+.btn-ubah {
+   padding: 5px 10px;
+   background: rgb(255, 193, 7);
+   border: 0;
+   outline: none;
+   border-radius: 4px;
+}
+
+.btn-ubah>a {
+   color: #000;
+}
+
+.btn-hapus {
+   padding: 5px 10px;
+   background: rgb(220, 53, 69);
+   border: none;
+   outline: none;
+   border-radius: 4px;
+}
+
+.btn-hapus>a {
+   color: #fff;
+}
