@@ -63,7 +63,13 @@
    border-radius: 4px;
    letter-spacing: 1px;
    cursor: pointer;
-   display: inline-block;
+   position: absolute;
+   bottom: 395px;
+   float: right;
+}
+
+#btn-cari button {
+   position: relative;
 }
 
 .table-responsive {
