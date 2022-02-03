@@ -46,55 +46,9 @@ if (isset($_POST["submit"])) {
    <title>Ubah Data Buku</title>
    <!-- Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <!-- Style CSS -->
+   <link rel="stylesheet" href="src/css/ubah.css" />
 </head>
-
-<style>
-   * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Open Sans', sans-serif;
-      text-transform: capitalize;
-      outline: none;
-   }
-
-   .container-ubah {
-      height: 110vh;
-   }
-
-   .judul-ubah>h1 {
-      text-align: center;
-      margin-top: 3rem;
-      letter-spacing: 2px;
-      font-weight: bold;
-   }
-
-   .form-ubah {
-      margin-top: 3rem;
-   }
-
-   label {
-      display: block;
-      margin-top: 1rem;
-   }
-
-   input {
-      margin-top: 6px;
-      width: 290px;
-      padding: 8px 15px;
-   }
-
-   .btn-ubah {
-      margin-top: 1rem;
-      padding: 10px 110px;
-      outline: none;
-      border: 0;
-      background: rgb(13, 110, 253);
-      color: #fff;
-      border-radius: 4px;
-      cursor: pointer;
-   }
-</style>
 
 <body>
    <div class="container-ubah">
