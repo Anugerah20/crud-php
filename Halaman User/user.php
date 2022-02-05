@@ -42,7 +42,7 @@ $buku = query("SELECT * FROM buku");
    <div class="container-admin">
 
       <div class="judul-admin">
-         <h1>Halaman Admin Buku 2021</h1>
+         <h1>Halaman User Buku 2021</h1>
       </div>
 
       <!-- <div class="logout">
