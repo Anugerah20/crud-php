@@ -53,7 +53,6 @@ if (isset($_POST["submit"])) {
 
       <div class="form-tambah">
          <form action="" method="post" enctype="multipart/form-data">
-            <center>
                <ul>
                   <li>
                      <label for="judul"><span style="margin-left: -245px;">judul<span></label>
@@ -83,7 +82,6 @@ if (isset($_POST["submit"])) {
                      <button class="btn-tambah" type="submit" name="submit">tambah data</button>
                   </li>
                </ul>
-            </center>
          </form>
       </div>
    </div>
