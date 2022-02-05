@@ -46,6 +46,6 @@ input[type="file"] {
    cursor: pointer;
 }
 
-center .btn-tambah:hover {
+.btn-tambah:hover {
    font-weight: 800;
 }
