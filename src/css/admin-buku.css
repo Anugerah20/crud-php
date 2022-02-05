@@ -73,6 +73,7 @@
 }
 
 .table-responsive {
+   max-width: 800px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -123,7 +124,7 @@ button>a {
 
 @media screen and(max-width: 576px) {
    .container-admin {
-      width: 100%;
+      width: 80%;
       display: flex;
    }
 
