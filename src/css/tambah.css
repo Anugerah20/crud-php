@@ -45,3 +45,7 @@ input[type="file"] {
    border-radius: 4px;
    cursor: pointer;
 }
+
+center .btn-tambah:hover {
+   font-weight: 800;
+}
