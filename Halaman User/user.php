@@ -1,4 +1,8 @@
 <?php
+require '../functions.php';
+// Menghubungkan koneksi db di file koneksi.php
+$buku = query("SELECT * FROM buku");
+
 // session_start();
 // Kondisi jika belum melakukan login
 // if(!isset($_SESSION["login"])) {
@@ -6,9 +10,6 @@
 //    exit;
 // }
 
-// Menghubungkan koneksi db di file koneksi.php
-// require 'functions.php';
-// $buku = query("SELECT * FROM buku");
 
 // Membuat button search
 // if (isset($_POST["search"])) {
