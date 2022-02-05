@@ -4,7 +4,7 @@ require '../functions.php';
 $buku = query("SELECT * FROM buku");
 
 // session_start();
-// Kondisi jika belum melakukan login
+// // Kondisi jika belum melakukan login
 // if(!isset($_SESSION["login"])) {
 //    header("Location: login.php");
 //    exit;
@@ -42,7 +42,7 @@ $buku = query("SELECT * FROM buku");
    <div class="container-admin">
 
       <div class="judul-admin">
-         <h1>daftar buku terlaris 2021</h1>
+         <h1>Halaman Admin Buku 2021</h1>
       </div>
 
       <!-- <div class="logout">
@@ -82,7 +82,7 @@ $buku = query("SELECT * FROM buku");
                   <td><?= $row["penulis"]; ?></td>
                   <td><?= $row["harga"]; ?></td>
                   <td>
-                     <img src="img/<?= $row["gambar"]; ?>" alt=" book1" width="50">
+                     <img src="../img/<?= $row["gambar"]; ?>" alt=" book1" width="50">
                   </td>
                   <td>
                      <button class="btn-ubah"> <a href="#">ubah</a></button>
