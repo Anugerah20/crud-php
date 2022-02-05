@@ -28,7 +28,7 @@ $buku = query("SELECT * FROM buku");
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <!-- Style CSS -->
-<link rel="stylesheet" href="src/css/admin-buku.css"/>
+<link rel="stylesheet" href="user.css"/>
 
 <head>
    <title>Halaman User Buku</title>
@@ -53,14 +53,12 @@ $buku = query("SELECT * FROM buku");
          <a href="tambah.php" target="_blank">tambah data buku</a>
       </div>
 
-      <div class="search-responsive">
          <!-- <form action="" method="post">
             <input class="searc" type="text" name="keyword" size="80" placeholder="kata kunci judul atau penulis..." autofocus autocomplete="off">
             <button id="btn-cari" type="submit" name="search"><i class="bi bi-search"></i></button>
          </form> -->
-      </div>
 
-      <div class="table-responsive">
+      <center>
          <table>
             <tr>
                <th>no</th>
@@ -94,7 +92,7 @@ $buku = query("SELECT * FROM buku");
                <?php $i++; ?>
             <?php endforeach; ?>
          </table>
-      </div class="table-responsive">
+         </center>
    </div>
 
 </body>
