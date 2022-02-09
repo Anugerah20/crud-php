@@ -73,10 +73,17 @@
 }
 
 /* .table-responsive {
-   max-width: 800px;
+   max-width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.table-container {
    display: flex;
-   justify-content: center;
-   align-items: center;
+}
+
+.admin-table {
+   width: 50%;
 } */
 
 table {
@@ -122,7 +129,7 @@ button>a {
 
 /* Responsive Mobile Website */
 
-@media screen and(max-width: 576px) {
+/* @media screen and(max-width: 576px) {
    .container-admin {
       width: 80%;
       display: flex;
@@ -140,4 +147,4 @@ button>a {
    .tambah-data a {
       display: none;
    }
-}
+} */

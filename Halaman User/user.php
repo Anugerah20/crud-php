@@ -93,7 +93,7 @@ $buku = query("SELECT * FROM buku");
             <?php endforeach; ?>
          </table>
          </center>
-   </div>
+   <!-- </div> -->
 
 </body>
 
