@@ -72,20 +72,6 @@
    position: relative;
 }
 
-/* .table-responsive {
-   max-width: 900px;
-   margin-left: auto;
-   margin-right: auto;
-}
-
-.table-container {
-   display: flex;
-}
-
-.admin-table {
-   width: 50%;
-} */
-
 table {
    border-collapse: collapse;
    margin-top: 3.5rem;
