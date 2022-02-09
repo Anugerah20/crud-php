@@ -44,7 +44,7 @@
    justify-content: center;
 }
 
-.searc {
+.search input[type=text]{
    margin-top: 3rem;
    padding: 10px 10px;
    border-radius: 4px;
@@ -127,10 +127,13 @@ button>a {
 
    tr, th {
       display: flex;
-      margin-left: 1rem;
+      margin-left: 1.1rem;
       flex-direction: column;
    }
-   .tambah-data a {
-      text-align:center;
-   }
+   /* .search-responsive {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      left: 50px;
+   } */
 }

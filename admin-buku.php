@@ -54,7 +54,7 @@ if (isset($_POST["search"])) {
 
       <div class="search-responsive">
          <form action="" method="post">
-            <input class="searc" type="text" name="keyword" size="80" placeholder="kata kunci judul atau penulis..." autofocus autocomplete="off">
+            <input type="text" class="searc" size="50" name="keyword" placeholder="ketik judul atau penulis..." autofocus autocomplete="off">
             <button id="btn-cari" type="submit" name="search"><i class="bi bi-search"></i></button>
          </form>
       </div>
@@ -93,7 +93,7 @@ if (isset($_POST["search"])) {
                <?php $i++; ?>
             <?php endforeach; ?>
          </table>
-      </center>
+         </center>
 
 </body>
 
