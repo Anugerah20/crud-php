@@ -27,7 +27,7 @@ if (isset($_POST["search"])) {
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <!-- Style CSS -->
-<link rel="stylesheet" href="src/css/admin-buku.css"/>
+<link rel="stylesheet" href="./src/css/admin-buku.css"/>
 
 <head>
    <title>Halaman Admin Buku</title>
@@ -59,8 +59,8 @@ if (isset($_POST["search"])) {
          </form>
       </div>
 
-      <div class="table-responsive">
-         <table>
+      <center>
+         <table class="admin-table">
             <tr>
                <th>no</th>
                <th>judul</th>
@@ -93,7 +93,7 @@ if (isset($_POST["search"])) {
                <?php $i++; ?>
             <?php endforeach; ?>
          </table>
-   </div>
+      </center>
 
 </body>
 
