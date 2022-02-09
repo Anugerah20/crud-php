@@ -115,14 +115,14 @@ button>a {
 
 /* Responsive Mobile Website */
 
-/* @media screen and(max-width: 576px) {
+@media screen and(max-width: 576px) {
    .container-admin {
       width: 80%;
       display: flex;
    }
 
    table {
-      width: 70%;
+      width: 90%;
    }
 
    tr, th {
@@ -131,6 +131,6 @@ button>a {
       flex-direction: column;
    }
    .tambah-data a {
-      display: none;
+      text-align:center;
    }
-} */
+}
