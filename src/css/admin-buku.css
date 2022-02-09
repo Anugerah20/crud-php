@@ -72,12 +72,12 @@
    position: relative;
 }
 
-.table-responsive {
+/* .table-responsive {
    max-width: 800px;
    display: flex;
    justify-content: center;
    align-items: center;
-}
+} */
 
 table {
    border-collapse: collapse;
