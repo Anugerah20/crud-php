@@ -93,7 +93,6 @@ if (isset($_POST["search"])) {
                <?php $i++; ?>
             <?php endforeach; ?>
          </table>
-      </div class="table-responsive">
    </div>
 
 </body>
