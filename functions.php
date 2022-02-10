@@ -74,7 +74,7 @@ function upload()
    // Mengecek ukuran gambar yang diupload 
    if ($ukuranFile > 5000000) {
       echo "<script>
-               echo('Gambar Gagal Di Unggah, Ukuran Gambar Minial 8 MB');
+               echo('Gambar Gagal Di Unggah, Ukuran Gambar Minial 5 MB');
             </script>";
    }
 
